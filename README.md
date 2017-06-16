@@ -4,6 +4,10 @@ Interactivity components for Body Double workshop, June 2017. For use with [Face
 
 Compatibility: Unity 5.6.1
 
+Includes [Post-processing Stack v1](https://github.com/Unity-Technologies/PostProcessing/tree/v1) as a submodule.
+
 ## Installation
 After cloning the repository:
+
+* Initialize submodules. Run 'git submodule init' and 'git submodule update'.
 * Download [Faceware Live Client for Unity](https://www.assetstore.unity3d.com/en/#!/content/25392) from the asset store and import into the /Assets/ folder.
