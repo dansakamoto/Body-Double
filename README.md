@@ -1,6 +1,6 @@
 # Body Double
 
-Interactivity components for Body Double workshop, June 2017. For use with [Faceware Live](http://facewaretech.com/products/software/realtime-live/).
+Interactivity components for Body Double workshop, June 2017. Use with [Faceware Live](http://facewaretech.com/products/software/realtime-live/) for live facial motion tracking. Use with [iPhone-Sensor-Stream-Unity](https://github.com/dansakamoto/iPhone-Sensor-Stream-Unity) for live virtual camera control.
 
 Compatibility: Unity 5.6.1
 
