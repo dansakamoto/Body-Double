@@ -97,11 +97,11 @@ public class OSCHandler : MonoBehaviour
 		Debug.Log (ipAddress);
         //Initialize OSC clients (transmitters)
         //Example:		
-		CreateClient("OSCulator", IPAddress.Parse("127.0.0.1"), 9000);
+		CreateClient("OSCulator", IPAddress.Parse("10.0.1.12"), 9000);
 
         //Initialize OSC servers (listeners)
         //Example:
-		CreateServer ("TouchOSC Server", 8000);
+		CreateServer ("iPhoneReceiver", 9000);
         //CreateServer("AndroidPhone", 6666);
 	}
 	

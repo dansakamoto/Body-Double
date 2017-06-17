@@ -30,14 +30,31 @@ public class oscControl : MonoBehaviour {
 	private Dictionary<string, ServerLog> servers;
 	private Dictionary<string, ClientLog> clients;
 	private float randVal=0f;
-	public GameObject cube;
+	//public GameObject cube;
 	private String msg="";
+
+	private float phoneX = 0f, phoneY = 0f, phoneZ = 0f, phoneW = 0f;
+
 	// Script initialization
 	void Start() {	
 		OSCHandler.Instance.Init(); //init OSC
 		servers = new Dictionary<string, ServerLog>();
 		clients = new Dictionary<string,ClientLog> ();
-		cube = GameObject.Find ("Cube");
+		//cube = GameObject.Find ("Cube");
+	}
+
+
+	private void onGUIDraw(){
+
+	}
+
+	protected void OnGUI()
+	{
+		GUI.skin.label.fontSize = Screen.width / 40;
+
+		GUILayout.Label("Orientation: " + Screen.orientation);
+		GUILayout.Label("inputX: " + phoneX + " inputY: " + phoneY + " inputZ: " + phoneZ + " inputW: " + phoneW);
+		GUILayout.Label ("Actual: " + transform.rotation);
 	}
 
 	// NOTE: The received messages at each server are updated here
@@ -45,13 +62,15 @@ public class oscControl : MonoBehaviour {
     // How many frames per second or Update() calls per frame?
 	void Update() {
 		
-		OSCHandler.Instance.UpdateLogs();
+		OSCHandler.Instance.UpdateLogs ();
 
-		msg="0.1544944";
-		byte[] val = new byte[]{176,8,0};
+		msg = "0.1544944";
+		byte[] val = new byte[]{ 176, 8, 0 };
 
 		servers = OSCHandler.Instance.Servers;
 		clients = OSCHandler.Instance.Clients;
+
+		/*
 		if (UnityEngine.Random.value < 0.01f) {
 			randVal = UnityEngine.Random.Range (0f, 0.7f);
 			OSCHandler.Instance.SendMessageToClient ("OSCulator", "/1/fader1", randVal);
@@ -59,27 +78,44 @@ public class oscControl : MonoBehaviour {
 			//OSCHandler.Instance.SendMessageToClient ("TouchOSC Bridge", "/1/fader3", randVal);
 			//OSCHandler.Instance.SendMessageToClient ("TouchOSC Bridge", "/1/fader4", randVal);
 		}
-		OSCHandler.Instance.UpdateLogs();
+		*/
+
+		OSCHandler.Instance.UpdateLogs ();
 
 		foreach (KeyValuePair<string, ServerLog> item in servers) {
 			// If we have received at least one packet,
 			// show the last received from the log in the Debug console
-			if (item.Value.log.Count > 0) {
+			//if (item.Value.log.Count > 0) {
 				int lastPacketIndex = item.Value.packets.Count - 1;
 					
-				UnityEngine.Debug.Log (String.Format ("SERVER: {0} ADDRESS: {1} VALUE : {2}", 
+				/*	UnityEngine.Debug.Log (String.Format ("SERVER: {0} ADDRESS: {1} VALUE : {2}", 
 					                                    item.Key, // Server name
 					                                    item.Value.packets [lastPacketIndex].Address, // OSC address
-					                                    item.Value.packets [lastPacketIndex].Data [0].ToString ())); //First data value
+					                                    item.Value.packets [lastPacketIndex].Data [0].ToString ())); //First data value */
+
+				if (item.Value.packets [lastPacketIndex].Address == "/phonesense/gyro/x") {
+					phoneX = float.Parse (item.Value.packets [lastPacketIndex].Data [0].ToString ());
+				} else if (item.Value.packets [lastPacketIndex].Address == "/phonesense/gyro/y") {
+					phoneY = float.Parse (item.Value.packets [lastPacketIndex].Data [0].ToString ());
+				} else if (item.Value.packets [lastPacketIndex].Address == "/phonesense/gyro/z") {
+					phoneZ = float.Parse (item.Value.packets [lastPacketIndex].Data [0].ToString ());
+				} else if (item.Value.packets [lastPacketIndex].Address == "/phonesense/gyro/w") {
+					phoneW = float.Parse (item.Value.packets [lastPacketIndex].Data [0].ToString ());
+				}
 					
 				//converts the values into MIDI to scale the cube
-				float tempVal = float.Parse (item.Value.packets [lastPacketIndex].Data [0].ToString ());
-				cube.transform.localScale = new Vector3 (tempVal, tempVal, tempVal);
+				//float tempVal = float.Parse (item.Value.packets [lastPacketIndex].Data [0].ToString ());
+				//cube.transform.localScale = new Vector3 (tempVal, tempVal, tempVal);
 			}
-		}
+		//}
+
+		//Debug.Log(phoneX + " " + phoneY + " " + phoneZ + " " + phoneW);
+		//0.3974451
+		transform.rotation = new Quaternion (phoneX, phoneY, phoneZ, phoneW);
+
 			
 
-		foreach( KeyValuePair<string, ClientLog> item in clients )
+		foreach( KeyValuePair<string, ClientLog> item in clients	 )
 		{
 			// If we have sent at least one message,
 			// show the last sent message from the log in the Debug console
