@@ -9,6 +9,7 @@ Compatibility: Unity 5.6.1
 * [Post-processing Stack v1](https://github.com/Unity-Technologies/PostProcessing/tree/v1) as a submodule.
 * [Faceware Live Client for Unity](https://www.assetstore.unity3d.com/en/#!/content/25392) from the Unity Asset Store
 * [Cope! Free Skybox Pack](https://www.assetstore.unity3d.com/en/#!/content/22252) from the Unity Asset Store
+* [Midi Jack] (https://github.com/keijiro/MidiJack)
 
 ## Installation
 After cloning the repository:
