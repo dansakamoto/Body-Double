@@ -10,6 +10,7 @@ Compatibility: Unity 5.6.1
 * [Faceware Live Client for Unity](https://www.assetstore.unity3d.com/en/#!/content/25392) from the Unity Asset Store
 * [Cope! Free Skybox Pack](https://www.assetstore.unity3d.com/en/#!/content/22252) from the Unity Asset Store
 * [Midi Jack](https://github.com/keijiro/MidiJack)
+* [Funnel](https://github.com/keijiro/Funnel)
 
 ## Installation
 After cloning the repository:
