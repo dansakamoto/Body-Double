@@ -20,7 +20,11 @@ public class MidiToBlend : MonoBehaviour {
 	void Update () {
 
 		for (int i = 0; i < patches.Length; i++) {
-			smr.SetBlendShapeWeight (patches[i], midiVal.knobs[i]*100f);
+			// smr.SetBlendShapeWeight (patches[i], midiVal.knobs[i]*100f);  Attempting to reverse
+
+			if (patches [i] != 0) { 
+				smr.SetBlendShapeWeight (i, midiVal.knobs [patches [i]] * 100f);
+			}
 		}
 
 	}
