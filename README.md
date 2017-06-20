@@ -13,7 +13,7 @@ Compatibility: Unity 5.6.1
 * [Funnel](https://github.com/keijiro/Funnel)
 
 ## Installation
-After cloning the repository:
+After cloning the repository: 
 
 * Initialize submodules. Run ```git submodule init``` and ```git submodule update```.
 * Download [Faceware Live Client for Unity](https://www.assetstore.unity3d.com/en/#!/content/25392) from the asset store and import into /Assets/
