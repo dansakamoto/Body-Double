@@ -10,7 +10,7 @@ public class EstimotePass : NetworkBehaviour {
 	float currentx = 0f, currentz = 0f;
 	float targetx = 0f, targetz = 0f;
 
-	public float smoothing = 10f, snapping = .001f, sensitivity = .1f, slmod = 1f, srmod=2.1f, usmod=3f, dsmod=1.2f;
+	public float smoothing = 60f, snapping = .001f, sensitivity = 1f, slmod = 1f, srmod=2.1f, usmod=3f, dsmod=1.2f;
 
 	//public float xSensitivity = 1f, zSensitivity = 1f;
 	GameObject camHousing, cam;
