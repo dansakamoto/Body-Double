@@ -1,0 +1,2358 @@
+fileFormatVersion: 2
+guid: 638df96b264b64230a78142a4e061792
+timeCreated: 1498129086
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: AnimObjectA
+    100002: AnimObjectB
+    100004: AnimObjectL
+    100006: AnimObjectR
+    100008: bhkRigidBody
+    100010: Camera Control
+    100012: Camera3rd [Cam3]
+    100014: CharacterBumper
+    100016: FemaleHead
+    100018: //RootNode
+    100020: FootFemale_Big
+    100022: HeroicForm25.003
+    100024: HeroicForm25.004
+    100026: HeroicFormAgileHands 0
+    100028: LeftWing1
+    100030: LeftWing2
+    100032: LeftWing3
+    100034: LeftWing4
+    100036: LeftWing5
+    100038: MagicEffectsNode
+    100040: NPC BHair01
+    100042: NPC BHair02
+    100044: NPC BHair03
+    100046: NPC BHair04
+    100048: NPC BHair05
+    100050: NPC BHair06
+    100052: NPC BHair07
+    100054: NPC BHair08
+    100056: NPC BHair09
+    100058: NPC BHair10
+    100060: NPC BHair11
+    100062: NPC BHair12
+    100064: NPC BHair13
+    100066: NPC BHair14
+    100068: NPC BHair15
+    100070: NPC BHair16
+    100072: NPC BLHair01
+    100074: NPC BLHair02
+    100076: NPC BLHair03
+    100078: NPC BLHair04
+    100080: NPC BLHair05
+    100082: NPC BLHair06
+    100084: NPC BLHair07
+    100086: NPC BLHair08
+    100088: NPC BLHair09
+    100090: NPC BLHair10
+    100092: NPC BLHair11
+    100094: NPC BLHair12
+    100096: NPC BLHair13
+    100098: NPC BLHair14
+    100100: NPC BLHair15
+    100102: NPC BLHair16
+    100104: NPC BRHair01
+    100106: NPC BRHair02
+    100108: NPC BRHair03
+    100110: NPC BRHair04
+    100112: NPC BRHair05
+    100114: NPC BRHair06
+    100116: NPC BRHair07
+    100118: NPC BRHair08
+    100120: NPC BRHair09
+    100122: NPC BRHair10
+    100124: NPC BRHair11
+    100126: NPC BRHair12
+    100128: NPC BRHair13
+    100130: NPC BRHair14
+    100132: NPC BRHair15
+    100134: NPC BRHair16
+    100136: NPC COM [COM ]
+    100138: NPC F Hair01
+    100140: NPC Hair01
+    100142: NPC Head [Head]
+    100144: NPC Head MagicNode [Hmag]
+    100146: NPC L Breast
+    100148: NPC L Breast01
+    100150: NPC L Butt
+    100152: NPC L Calf [LClf]
+    100154: NPC L Clavicle [LClv]
+    100156: NPC L Cloak01
+    100158: NPC L Cloak02
+    100160: NPC L Cloak03
+    100162: NPC L Cloak04
+    100164: NPC L Cloak05
+    100166: NPC L Cloak06
+    100168: NPC L Cloak07
+    100170: NPC L Cloak08
+    100172: NPC L Cloak09
+    100174: NPC L Cloak10
+    100176: NPC L Cloak11
+    100178: NPC L Cloak12
+    100180: NPC L Finger00 [LF00]
+    100182: NPC L Finger01 [LF01]
+    100184: NPC L Finger02 [LF02]
+    100186: NPC L Finger10 [LF10]
+    100188: NPC L Finger11 [LF11]
+    100190: NPC L Finger12 [LF12]
+    100192: NPC L Finger20 [LF20]
+    100194: NPC L Finger21 [LF21]
+    100196: NPC L Finger22 [LF22]
+    100198: NPC L Finger30 [LF30]
+    100200: NPC L Finger31 [LF31]
+    100202: NPC L Finger32 [LF32]
+    100204: NPC L Finger40 [LF40]
+    100206: NPC L Finger41 [LF41]
+    100208: NPC L Finger42 [LF42]
+    100210: NPC L Foot [Lft ]
+    100212: NPC L Forearm [LLar]
+    100214: NPC L ForearmTwist1 [LLt1]
+    100216: NPC L ForearmTwist2 [LLt2]
+    100218: NPC L Hair01
+    100220: NPC L Hair02
+    100222: NPC L Hair03
+    100224: NPC L Hair04
+    100226: NPC L Hair05
+    100228: NPC L Hair06
+    100230: NPC L Hair07
+    100232: NPC L Hair08
+    100234: NPC L Hair09
+    100236: NPC L Hand [LHnd]
+    100238: NPC L Item01
+    100240: NPC L Item02
+    100242: NPC L Item03
+    100244: NPC L MagicNode [LMag]
+    100246: NPC L Pauldron
+    100248: NPC L PreBreast
+    100250: NPC L PreButt
+    100252: NPC L PreButt0
+    100254: NPC L Pussy01
+    100256: NPC L Pussy02
+    100258: NPC L Thigh [LThg]
+    100260: NPC L Toe0 [LToe]
+    100262: NPC L UpperArm [LUar]
+    100264: NPC L UpperarmTwist1 [LUt1]
+    100266: NPC L UpperarmTwist2 [LUt2]
+    100268: NPC Neck [Neck]
+    100270: NPC Pelvis [Pelv]
+    100272: NPC R Breast
+    100274: NPC R Breast01
+    100276: NPC R Butt
+    100278: NPC R Calf [RClf]
+    100280: NPC R Clavicle [RClv]
+    100282: NPC R Cloak01
+    100284: NPC R Cloak02
+    100286: NPC R Cloak03
+    100288: NPC R Cloak04
+    100290: NPC R Cloak05
+    100292: NPC R Cloak06
+    100294: NPC R Cloak07
+    100296: NPC R Cloak08
+    100298: NPC R Cloak09
+    100300: NPC R Cloak10
+    100302: NPC R Cloak11
+    100304: NPC R Cloak12
+    100306: NPC R Finger00 [RF00]
+    100308: NPC R Finger01 [RF01]
+    100310: NPC R Finger02 [RF02]
+    100312: NPC R Finger10 [RF10]
+    100314: NPC R Finger11 [RF11]
+    100316: NPC R Finger12 [RF12]
+    100318: NPC R Finger20 [RF20]
+    100320: NPC R Finger21 [RF21]
+    100322: NPC R Finger22 [RF22]
+    100324: NPC R Finger30 [RF30]
+    100326: NPC R Finger31 [RF31]
+    100328: NPC R Finger32 [RF32]
+    100330: NPC R Finger40 [RF40]
+    100332: NPC R Finger41 [RF41]
+    100334: NPC R Finger42 [RF42]
+    100336: NPC R Foot [Rft ]
+    100338: NPC R Forearm [RLar]
+    100340: NPC R ForearmTwist1 [RLt1]
+    100342: NPC R ForearmTwist2 [RLt2]
+    100344: NPC R Hair01
+    100346: NPC R Hair02
+    100348: NPC R Hair03
+    100350: NPC R Hair04
+    100352: NPC R Hair05
+    100354: NPC R Hair06
+    100356: NPC R Hair07
+    100358: NPC R Hair08
+    100360: NPC R Hair09
+    100362: NPC R Hand [RHnd]
+    100364: NPC R Item01
+    100366: NPC R Item02
+    100368: NPC R Item03
+    100370: NPC R MagicNode [RMag]
+    100372: NPC R Pauldron
+    100374: NPC R PreBreast
+    100376: NPC R PreButt
+    100378: NPC R PreButt0
+    100380: NPC R Pussy01
+    100382: NPC R Pussy02
+    100384: NPC R Thigh [RThg]
+    100386: NPC R Toe0 [RToe]
+    100388: NPC R UpperArm [RUar]
+    100390: NPC R UpperarmTwist1 [RUt1]
+    100392: NPC R UpperarmTwist2 [RUt2]
+    100394: NPC Root [Root]
+    100396: NPC Spine [Spn0]
+    100398: NPC Spine1 [Spn1]
+    100400: NPC Spine2 [Spn2]
+    100402: NPC Wing 01 L
+    100404: NPC Wing 01 R
+    100406: NPC Wing 02 L
+    100408: NPC Wing 02 R
+    100410: NPC Wing 03 L
+    100412: NPC Wing 03 R
+    100414: NPC Wing 04 L
+    100416: NPC Wing 04 R
+    100418: NPC Wing 05 L
+    100420: NPC Wing 05 R
+    100422: NPC Wing 06 L
+    100424: NPC Wing 06 R
+    100426: NPC Wing 07 L
+    100428: NPC Wing 07 R
+    100430: NPC Wing 08 L
+    100432: NPC Wing 08 R
+    100434: NPC Wing 09 L
+    100436: NPC Wing 09 R
+    100438: NPC Wing 10 L
+    100440: NPC Wing 10 R
+    100442: NPC Wing 11 L
+    100444: NPC Wing 11 R
+    100446: NPCEyeBone
+    100448: QUIVER
+    100450: RightWing1
+    100452: RightWing2
+    100454: RightWing3
+    100456: RightWing4
+    100458: RightWing5
+    100460: SHIELD
+    100462: SkirtBBone01
+    100464: SkirtBBone02
+    100466: SkirtBBone03
+    100468: SkirtFBone01
+    100470: SkirtFBone02
+    100472: SkirtFBone03
+    100474: SkirtLBone01
+    100476: SkirtLBone02
+    100478: SkirtLBone03
+    100480: SkirtRBone01
+    100482: SkirtRBone02
+    100484: SkirtRBone03
+    100486: TailBone01
+    100488: TailBone02
+    100490: TailBone03
+    100492: TailBone04
+    100494: TailBone05
+    100496: WEAPON
+    100498: WeaponAxe
+    100500: WeaponBack
+    100502: WeaponBow
+    100504: WeaponDagger
+    100506: WeaponMace
+    100508: WeaponSword
+    100510: x_NPC LookNode [Look]
+    100512: x_NPC Rotate [Rot ]
+    100514: x_NPC Translate [Pos ]
+    400000: AnimObjectA
+    400002: AnimObjectB
+    400004: AnimObjectL
+    400006: AnimObjectR
+    400008: bhkRigidBody
+    400010: Camera Control
+    400012: Camera3rd [Cam3]
+    400014: CharacterBumper
+    400016: FemaleHead
+    400018: //RootNode
+    400020: FootFemale_Big
+    400022: HeroicForm25.003
+    400024: HeroicForm25.004
+    400026: HeroicFormAgileHands 0
+    400028: LeftWing1
+    400030: LeftWing2
+    400032: LeftWing3
+    400034: LeftWing4
+    400036: LeftWing5
+    400038: MagicEffectsNode
+    400040: NPC BHair01
+    400042: NPC BHair02
+    400044: NPC BHair03
+    400046: NPC BHair04
+    400048: NPC BHair05
+    400050: NPC BHair06
+    400052: NPC BHair07
+    400054: NPC BHair08
+    400056: NPC BHair09
+    400058: NPC BHair10
+    400060: NPC BHair11
+    400062: NPC BHair12
+    400064: NPC BHair13
+    400066: NPC BHair14
+    400068: NPC BHair15
+    400070: NPC BHair16
+    400072: NPC BLHair01
+    400074: NPC BLHair02
+    400076: NPC BLHair03
+    400078: NPC BLHair04
+    400080: NPC BLHair05
+    400082: NPC BLHair06
+    400084: NPC BLHair07
+    400086: NPC BLHair08
+    400088: NPC BLHair09
+    400090: NPC BLHair10
+    400092: NPC BLHair11
+    400094: NPC BLHair12
+    400096: NPC BLHair13
+    400098: NPC BLHair14
+    400100: NPC BLHair15
+    400102: NPC BLHair16
+    400104: NPC BRHair01
+    400106: NPC BRHair02
+    400108: NPC BRHair03
+    400110: NPC BRHair04
+    400112: NPC BRHair05
+    400114: NPC BRHair06
+    400116: NPC BRHair07
+    400118: NPC BRHair08
+    400120: NPC BRHair09
+    400122: NPC BRHair10
+    400124: NPC BRHair11
+    400126: NPC BRHair12
+    400128: NPC BRHair13
+    400130: NPC BRHair14
+    400132: NPC BRHair15
+    400134: NPC BRHair16
+    400136: NPC COM [COM ]
+    400138: NPC F Hair01
+    400140: NPC Hair01
+    400142: NPC Head [Head]
+    400144: NPC Head MagicNode [Hmag]
+    400146: NPC L Breast
+    400148: NPC L Breast01
+    400150: NPC L Butt
+    400152: NPC L Calf [LClf]
+    400154: NPC L Clavicle [LClv]
+    400156: NPC L Cloak01
+    400158: NPC L Cloak02
+    400160: NPC L Cloak03
+    400162: NPC L Cloak04
+    400164: NPC L Cloak05
+    400166: NPC L Cloak06
+    400168: NPC L Cloak07
+    400170: NPC L Cloak08
+    400172: NPC L Cloak09
+    400174: NPC L Cloak10
+    400176: NPC L Cloak11
+    400178: NPC L Cloak12
+    400180: NPC L Finger00 [LF00]
+    400182: NPC L Finger01 [LF01]
+    400184: NPC L Finger02 [LF02]
+    400186: NPC L Finger10 [LF10]
+    400188: NPC L Finger11 [LF11]
+    400190: NPC L Finger12 [LF12]
+    400192: NPC L Finger20 [LF20]
+    400194: NPC L Finger21 [LF21]
+    400196: NPC L Finger22 [LF22]
+    400198: NPC L Finger30 [LF30]
+    400200: NPC L Finger31 [LF31]
+    400202: NPC L Finger32 [LF32]
+    400204: NPC L Finger40 [LF40]
+    400206: NPC L Finger41 [LF41]
+    400208: NPC L Finger42 [LF42]
+    400210: NPC L Foot [Lft ]
+    400212: NPC L Forearm [LLar]
+    400214: NPC L ForearmTwist1 [LLt1]
+    400216: NPC L ForearmTwist2 [LLt2]
+    400218: NPC L Hair01
+    400220: NPC L Hair02
+    400222: NPC L Hair03
+    400224: NPC L Hair04
+    400226: NPC L Hair05
+    400228: NPC L Hair06
+    400230: NPC L Hair07
+    400232: NPC L Hair08
+    400234: NPC L Hair09
+    400236: NPC L Hand [LHnd]
+    400238: NPC L Item01
+    400240: NPC L Item02
+    400242: NPC L Item03
+    400244: NPC L MagicNode [LMag]
+    400246: NPC L Pauldron
+    400248: NPC L PreBreast
+    400250: NPC L PreButt
+    400252: NPC L PreButt0
+    400254: NPC L Pussy01
+    400256: NPC L Pussy02
+    400258: NPC L Thigh [LThg]
+    400260: NPC L Toe0 [LToe]
+    400262: NPC L UpperArm [LUar]
+    400264: NPC L UpperarmTwist1 [LUt1]
+    400266: NPC L UpperarmTwist2 [LUt2]
+    400268: NPC Neck [Neck]
+    400270: NPC Pelvis [Pelv]
+    400272: NPC R Breast
+    400274: NPC R Breast01
+    400276: NPC R Butt
+    400278: NPC R Calf [RClf]
+    400280: NPC R Clavicle [RClv]
+    400282: NPC R Cloak01
+    400284: NPC R Cloak02
+    400286: NPC R Cloak03
+    400288: NPC R Cloak04
+    400290: NPC R Cloak05
+    400292: NPC R Cloak06
+    400294: NPC R Cloak07
+    400296: NPC R Cloak08
+    400298: NPC R Cloak09
+    400300: NPC R Cloak10
+    400302: NPC R Cloak11
+    400304: NPC R Cloak12
+    400306: NPC R Finger00 [RF00]
+    400308: NPC R Finger01 [RF01]
+    400310: NPC R Finger02 [RF02]
+    400312: NPC R Finger10 [RF10]
+    400314: NPC R Finger11 [RF11]
+    400316: NPC R Finger12 [RF12]
+    400318: NPC R Finger20 [RF20]
+    400320: NPC R Finger21 [RF21]
+    400322: NPC R Finger22 [RF22]
+    400324: NPC R Finger30 [RF30]
+    400326: NPC R Finger31 [RF31]
+    400328: NPC R Finger32 [RF32]
+    400330: NPC R Finger40 [RF40]
+    400332: NPC R Finger41 [RF41]
+    400334: NPC R Finger42 [RF42]
+    400336: NPC R Foot [Rft ]
+    400338: NPC R Forearm [RLar]
+    400340: NPC R ForearmTwist1 [RLt1]
+    400342: NPC R ForearmTwist2 [RLt2]
+    400344: NPC R Hair01
+    400346: NPC R Hair02
+    400348: NPC R Hair03
+    400350: NPC R Hair04
+    400352: NPC R Hair05
+    400354: NPC R Hair06
+    400356: NPC R Hair07
+    400358: NPC R Hair08
+    400360: NPC R Hair09
+    400362: NPC R Hand [RHnd]
+    400364: NPC R Item01
+    400366: NPC R Item02
+    400368: NPC R Item03
+    400370: NPC R MagicNode [RMag]
+    400372: NPC R Pauldron
+    400374: NPC R PreBreast
+    400376: NPC R PreButt
+    400378: NPC R PreButt0
+    400380: NPC R Pussy01
+    400382: NPC R Pussy02
+    400384: NPC R Thigh [RThg]
+    400386: NPC R Toe0 [RToe]
+    400388: NPC R UpperArm [RUar]
+    400390: NPC R UpperarmTwist1 [RUt1]
+    400392: NPC R UpperarmTwist2 [RUt2]
+    400394: NPC Root [Root]
+    400396: NPC Spine [Spn0]
+    400398: NPC Spine1 [Spn1]
+    400400: NPC Spine2 [Spn2]
+    400402: NPC Wing 01 L
+    400404: NPC Wing 01 R
+    400406: NPC Wing 02 L
+    400408: NPC Wing 02 R
+    400410: NPC Wing 03 L
+    400412: NPC Wing 03 R
+    400414: NPC Wing 04 L
+    400416: NPC Wing 04 R
+    400418: NPC Wing 05 L
+    400420: NPC Wing 05 R
+    400422: NPC Wing 06 L
+    400424: NPC Wing 06 R
+    400426: NPC Wing 07 L
+    400428: NPC Wing 07 R
+    400430: NPC Wing 08 L
+    400432: NPC Wing 08 R
+    400434: NPC Wing 09 L
+    400436: NPC Wing 09 R
+    400438: NPC Wing 10 L
+    400440: NPC Wing 10 R
+    400442: NPC Wing 11 L
+    400444: NPC Wing 11 R
+    400446: NPCEyeBone
+    400448: QUIVER
+    400450: RightWing1
+    400452: RightWing2
+    400454: RightWing3
+    400456: RightWing4
+    400458: RightWing5
+    400460: SHIELD
+    400462: SkirtBBone01
+    400464: SkirtBBone02
+    400466: SkirtBBone03
+    400468: SkirtFBone01
+    400470: SkirtFBone02
+    400472: SkirtFBone03
+    400474: SkirtLBone01
+    400476: SkirtLBone02
+    400478: SkirtLBone03
+    400480: SkirtRBone01
+    400482: SkirtRBone02
+    400484: SkirtRBone03
+    400486: TailBone01
+    400488: TailBone02
+    400490: TailBone03
+    400492: TailBone04
+    400494: TailBone05
+    400496: WEAPON
+    400498: WeaponAxe
+    400500: WeaponBack
+    400502: WeaponBow
+    400504: WeaponDagger
+    400506: WeaponMace
+    400508: WeaponSword
+    400510: x_NPC LookNode [Look]
+    400512: x_NPC Rotate [Rot ]
+    400514: x_NPC Translate [Pos ]
+    4300000: HeroicForm25.004
+    4300002: HeroicFormAgileHands 0
+    4300004: FemaleHead
+    4300006: FootFemale_Big
+    4300008: HeroicForm25.003
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: FemaleHead
+    13700002: FootFemale_Big
+    13700004: HeroicForm25.003
+    13700006: HeroicForm25.004
+    13700008: HeroicFormAgileHands 0
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: NPC COM [COM ]
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC L Thigh [LThg]
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC R Thigh [RThg]
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC L Calf [LClf]
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC R Calf [RClf]
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC L Foot [Lft ]
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC R Foot [Rft ]
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC Spine [Spn0]
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC Spine1 [Spn1]
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC Head [Head]
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC L Clavicle [LClv]
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC R Clavicle [RClv]
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC L UpperArm [LUar]
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC R UpperArm [RUar]
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC L Forearm [LLar]
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC R Forearm [RLar]
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC L Hand [LHnd]
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC R Hand [RHnd]
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC L Toe0 [LToe]
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC R Toe0 [RToe]
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC L Finger00 [LF00]
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC L Finger01 [LF01]
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC L Finger02 [LF02]
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC L Finger10 [LF10]
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC L Finger11 [LF11]
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC L Finger12 [LF12]
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC L Finger20 [LF20]
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC L Finger21 [LF21]
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC L Finger22 [LF22]
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC L Finger30 [LF30]
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC L Finger31 [LF31]
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC L Finger32 [LF32]
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC L Finger40 [LF40]
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC L Finger41 [LF41]
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC L Finger42 [LF42]
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC R Finger00 [RF00]
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC R Finger01 [RF01]
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC R Finger02 [RF02]
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC R Finger10 [RF10]
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC R Finger11 [RF11]
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC R Finger12 [RF12]
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC R Finger20 [RF20]
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC R Finger21 [RF21]
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC R Finger22 [RF22]
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC R Finger30 [RF30]
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC R Finger31 [RF31]
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC R Finger32 [RF32]
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC R Finger40 [RF40]
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC R Finger41 [RF41]
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC R Finger42 [RF42]
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC Spine2 [Spn2]
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: femsolosc2(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Camera3rd [Cam3]
+      parentName: femsolosc2(Clone)
+      position: {x: -0, y: 3.0734, z: 0}
+      rotation: {x: -0.5, y: -0.5, z: 0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CharacterBumper
+      parentName: femsolosc2(Clone)
+      position: {x: -0, y: 0.254, z: -0.4318}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FemaleHead
+      parentName: femsolosc2(Clone)
+      position: {x: 0.000006495697, y: 3.056727, z: 0.039307162}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FootFemale_Big
+      parentName: femsolosc2(Clone)
+      position: {x: 0.000006495697, y: 3.056727, z: 0.039307162}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HeroicForm25.003
+      parentName: femsolosc2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HeroicForm25.004
+      parentName: femsolosc2(Clone)
+      position: {x: 1.5240716e-10, y: -0.00000095310975, z: -0.6350001}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HeroicFormAgileHands 0
+      parentName: femsolosc2(Clone)
+      position: {x: 1.5240716e-10, y: -0.00000095310975, z: -0.6350001}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC L Item01
+      parentName: femsolosc2(Clone)
+      position: {x: 0.7709567, y: 1.759122, z: -0.08505584}
+      rotation: {x: 0.45885274, y: 0.7139367, z: -0.33468494, w: 0.40955412}
+      scale: {x: 1.0000005, y: 0.99999964, z: 1.0000004}
+    - name: NPC L Item02
+      parentName: NPC L Item01
+      position: {x: 0.0003948887, y: 0.006571401, z: 0.10796298}
+      rotation: {x: 0.000000059604645, y: -8.881784e-16, z: -0.000000014901161, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: NPC L Item03
+      parentName: NPC L Item02
+      position: {x: 0.0003952278, y: 0.0065711103, z: 0.10796298}
+      rotation: {x: 0, y: -0.000000014901161, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC R Item01
+      parentName: femsolosc2(Clone)
+      position: {x: -0.7709571, y: 1.7591988, z: -0.08520553}
+      rotation: {x: -0.45892367, y: 0.71399075, z: -0.33457243, w: -0.4094723}
+      scale: {x: 0.9999999, y: 1, z: 1.0000004}
+    - name: NPC R Item02
+      parentName: NPC R Item01
+      position: {x: -0.00039740792, y: 0.0065745017, z: 0.107962884}
+      rotation: {x: 0.000000029802322, y: -0.00000001490116, z: -0.0000000372529,
+        w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: NPC R Item03
+      parentName: NPC R Item02
+      position: {x: -0.00039731103, y: 0.0065746955, z: 0.107962884}
+      rotation: {x: -2.2204455e-16, y: -0.000000029802319, z: -0.0000000074505797,
+        w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: NPC Root [Root]
+      parentName: femsolosc2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AnimObjectA
+      parentName: NPC Root [Root]
+      position: {x: 0.127, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AnimObjectB
+      parentName: NPC Root [Root]
+      position: {x: -0.127, y: -0.0000000254, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Camera Control
+      parentName: NPC Root [Root]
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0, y: -0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC COM [COM ]
+      parentName: NPC Root [Root]
+      position: {x: 0.0000000762, y: -0.008887172, z: 1.808015}
+      rotation: {x: 0.014765867, y: -0.48471475, z: -0.8745094, w: -0.008183818}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC Pelvis [Pelv]
+      parentName: NPC COM [COM ]
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.4847148, y: -0.014765668, z: 0.008184172, w: 0.87450933}
+      scale: {x: 1, y: 1.0000004, z: 1.0000004}
+    - name: NPC L PreButt0
+      parentName: NPC Pelvis [Pelv]
+      position: {x: -0.0000000012617163, y: 0.0127, z: -0.00000019378662}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC L PreButt
+      parentName: NPC L PreButt0
+      position: {x: 0.101600036, y: -0.25399998, z: 0.127}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC L Butt
+      parentName: NPC L PreButt
+      position: {x: -0.000000024223327, y: 0.000000048446655, z: 0.00000038757324}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC L Pussy01
+      parentName: NPC Pelvis [Pelv]
+      position: {x: 0.0508, y: -0.000000001513958, z: -0.025400775}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC L Pussy02
+      parentName: NPC L Pussy01
+      position: {x: 0.0254, y: -0.0000000254, z: -0.0762}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC R PreButt0
+      parentName: NPC Pelvis [Pelv]
+      position: {x: -0.0000000012617163, y: 0.0127, z: -0.00000019378662}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC R PreButt
+      parentName: NPC R PreButt0
+      position: {x: -0.101599984, y: -0.25399998, z: 0.127}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC R Butt
+      parentName: NPC R PreButt
+      position: {x: -0.000000006055832, y: 0.000000048446655, z: 0.00000038757324}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC R Pussy01
+      parentName: NPC Pelvis [Pelv]
+      position: {x: -0.0508, y: -0.000000021195412, z: -0.025400775}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC R Pussy02
+      parentName: NPC R Pussy01
+      position: {x: -0.0254, y: -0.0000000508, z: -0.0762}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SkirtBBone01
+      parentName: NPC Pelvis [Pelv]
+      position: {x: -0.000000024980306, y: -0.28565544, z: 0.22728808}
+      rotation: {x: 0.99730617, y: -8.605003e-10, z: -9.971273e-10, w: 0.073351026}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: SkirtBBone02
+      parentName: SkirtBBone01
+      position: {x: -0, y: 0.000000012111664, z: 0.3280834}
+      rotation: {x: 8.6736174e-19, y: -9.313226e-10, z: 9.313226e-10, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SkirtBBone03
+      parentName: SkirtBBone02
+      position: {x: -0, y: 0.00000008478165, z: 0.32808316}
+      rotation: {x: 8.6736174e-19, y: -9.313226e-10, z: 9.313226e-10, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SkirtFBone01
+      parentName: NPC Pelvis [Pelv]
+      position: {x: -0.00000010219216, y: 0.303062, z: 0.14561012}
+      rotation: {x: -0.0000019590072, y: 0.9999076, z: 0.013595952, w: 0.000006958926}
+      scale: {x: 1.0000004, y: 0.99999994, z: 1.0000004}
+    - name: SkirtFBone02
+      parentName: SkirtFBone01
+      position: {x: -0, y: 0.000000048446655, z: 0.32808313}
+      rotation: {x: -0.000000029802322, y: -9.313225e-10, z: -0.000000002793968, w: 1}
+      scale: {x: 1, y: 1, z: 0.99999976}
+    - name: SkirtFBone03
+      parentName: SkirtFBone02
+      position: {x: -0.00000004996061, y: 0, z: 0.32808337}
+      rotation: {x: -0.000000029802322, y: 0.000000017695125, z: 0.000000010244547,
+        w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: SkirtLBone01
+      parentName: NPC Pelvis [Pelv]
+      position: {x: 0.38310075, y: -0.032977443, z: 0.18596965}
+      rotation: {x: 0.70441604, y: 0.70441604, z: 0.061628997, w: 0.061628025}
+      scale: {x: 0.99999964, y: 0.9999999, z: 0.9999996}
+    - name: SkirtLBone02
+      parentName: SkirtLBone01
+      position: {x: 0.000000024223327, y: -0.00000014533997, z: 0.3280834}
+      rotation: {x: 0.043781012, y: -0.000000044579075, z: 0.0000000038180232, w: 0.9990412}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1.0000001}
+    - name: SkirtLBone03
+      parentName: SkirtLBone02
+      position: {x: -0.0000001695633, y: 0.000000048446655, z: 0.32808354}
+      rotation: {x: 0.043458037, y: -0.0000029978075, z: 0.0000000036224106, w: 0.99905527}
+      scale: {x: 1.0000002, y: 0.99999994, z: 0.99999994}
+    - name: SkirtRBone01
+      parentName: NPC Pelvis [Pelv]
+      position: {x: -0.38310072, y: -0.03297749, z: 0.18596965}
+      rotation: {x: -0.70441586, y: 0.70441586, z: 0.06163195, w: -0.06162901}
+      scale: {x: 1.0000001, y: 1, z: 1.0000002}
+    - name: SkirtRBone02
+      parentName: SkirtRBone01
+      position: {x: -0.000000036334992, y: 0, z: 0.32808328}
+      rotation: {x: 0.043779988, y: -0.00000003026303, z: -0.000000009860411, w: 0.9990412}
+      scale: {x: 0.9999999, y: 1.0000004, z: 1}
+    - name: SkirtRBone03
+      parentName: SkirtRBone02
+      position: {x: 0.00000009689331, y: 0.00000014533997, z: 0.32808366}
+      rotation: {x: 0.043457028, y: 0.000001968657, z: -0.0000000035989784, w: 0.9990553}
+      scale: {x: 0.9999999, y: 1, z: 1.0000001}
+    - name: TailBone01
+      parentName: NPC Pelvis [Pelv]
+      position: {x: -0.000000050717592, y: -0.20975088, z: 0.083312355}
+      rotation: {x: 0.7071067, y: 1.7663542e-16, z: -0.000000001317089, w: 0.7071069}
+      scale: {x: 1, y: 0.9999999, z: 0.9999999}
+    - name: TailBone02
+      parentName: TailBone01
+      position: {x: 0.000000023466349, y: -0.00000021800994, z: 0.36194998}
+      rotation: {x: 0.00000052154064, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TailBone03
+      parentName: TailBone02
+      position: {x: -0, y: 0.0000005329132, z: 0.36194992}
+      rotation: {x: -0.000000014901159, y: -9.313226e-10, z: -9.313226e-10, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: TailBone04
+      parentName: TailBone03
+      position: {x: -0, y: 0.0000004360199, z: 0.3619499}
+      rotation: {x: -0.000000014901159, y: -9.313226e-10, z: -9.313226e-10, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: TailBone05
+      parentName: TailBone04
+      position: {x: 0.000000003027916, y: 0.00000014533997, z: 0.3619499}
+      rotation: {x: -0.000000014901159, y: -9.313226e-10, z: -9.313226e-10, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: WeaponAxe
+      parentName: NPC Pelvis [Pelv]
+      position: {x: -0.48238388, y: -0.07603653, z: -0.48384255}
+      rotation: {x: 0.5903673, y: 0.4359524, z: 0.18950209, w: 0.6523043}
+      scale: {x: 0.9999999, y: 1, z: 1.0000001}
+    - name: WeaponDagger
+      parentName: NPC Pelvis [Pelv]
+      position: {x: 0.21867403, y: 0.14700118, z: 0.075980246}
+      rotation: {x: -0.39528894, y: -0.62372184, z: 0.65154773, w: 0.17379086}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000002}
+    - name: WeaponMace
+      parentName: NPC Pelvis [Pelv]
+      position: {x: -0.31417987, y: -0.0862396, z: 0.08047067}
+      rotation: {x: 0.5968858, y: -0.4364639, z: 0.55268186, w: -0.38440785}
+      scale: {x: 1.0000001, y: 0.9999995, z: 1}
+    - name: WeaponSword
+      parentName: NPC Pelvis [Pelv]
+      position: {x: 0.30204347, y: 0.048689105, z: 0.16931757}
+      rotation: {x: 0.68273693, y: 0.37283912, z: -0.57159597, w: -0.26103503}
+      scale: {x: 0.99999964, y: 0.9999998, z: 0.99999994}
+    - name: NPC L Thigh [LThg]
+      parentName: NPC Pelvis [Pelv]
+      position: {x: 0.1680228, y: 0.000010287, z: 0}
+      rotation: {x: -0.019852519, y: -0.99841416, z: 0.017470388, w: -0.049697615}
+      scale: {x: 1.0000029, y: 1.0000017, z: 1.0000023}
+    - name: NPC L Calf [LClf]
+      parentName: NPC L Thigh [LThg]
+      position: {x: -0.00000076199996, y: 0.0000002032, z: 0.904119}
+      rotation: {x: 0.064980954, y: -0.00018964705, z: -0.007631678, w: 0.9978574}
+      scale: {x: 1.0000036, y: 1.0000037, z: 1.0000017}
+    - name: NPC L Foot [Lft ]
+      parentName: NPC L Calf [LClf]
+      position: {x: -0.0000001524, y: 0.0000002032, z: 0.70992386}
+      rotation: {x: 0.528101, y: 0.0046591405, z: -0.13337289, w: -0.8386294}
+      scale: {x: 1.0000005, y: 1.0000007, z: 0.9999997}
+    - name: NPC L Toe0 [LToe]
+      parentName: NPC L Foot [Lft ]
+      position: {x: 0.00000088900003, y: -0.00041470578, z: 0.27079305}
+      rotation: {x: -0.29494664, y: 0.0016678226, z: 0.00051486294, w: 0.95551217}
+      scale: {x: 1.000001, y: 1.0000006, z: 0.9999999}
+    - name: NPC R Thigh [RThg]
+      parentName: NPC Pelvis [Pelv]
+      position: {x: -0.1680228, y: 0.0000102615995, z: 0}
+      rotation: {x: 0.019853342, y: -0.99841505, z: 0.017465321, w: 0.04968118}
+      scale: {x: 1.0000031, y: 1.0000018, z: 1.0000024}
+    - name: NPC R Calf [RClf]
+      parentName: NPC R Thigh [RThg]
+      position: {x: 0.0000001778, y: 0.0000000508, z: 0.9041196}
+      rotation: {x: 0.06497738, y: 0.00017925723, z: 0.0076437863, w: 0.99785745}
+      scale: {x: 1.0000008, y: 1.0000021, z: 1.0000018}
+    - name: NPC R Foot [Rft ]
+      parentName: NPC R Calf [RClf]
+      position: {x: 0.008304772, y: -0.00031240538, z: 0.7237952}
+      rotation: {x: 0.52809703, y: -0.0046895077, z: 0.133371, w: -0.8386321}
+      scale: {x: 1.0000014, y: 1.0000002, z: 1.0000011}
+    - name: NPC R Toe0 [RToe]
+      parentName: NPC R Foot [Rft ]
+      position: {x: -0.0000009689331, y: -0.00041469125, z: 0.27079305}
+      rotation: {x: -0.29494682, y: -0.0016678718, z: -0.00051493937, w: 0.9555121}
+      scale: {x: 1.0000005, y: 0.9999997, z: 0.99999994}
+    - name: NPC Spine [Spn0]
+      parentName: NPC COM [COM ]
+      position: {x: -0.00000022785068, y: -0.13309221, z: 0.09630691}
+      rotation: {x: -0.50366294, y: -0.0149402255, z: 0.007860866, w: 0.8637353}
+      scale: {x: 1.0000001, y: 1.0000018, z: 1.0000021}
+    - name: MagicEffectsNode
+      parentName: NPC Spine [Spn0]
+      position: {x: -0.00000027856825, y: 0.12590717, z: 0.123516336}
+      rotation: {x: 0.021799032, y: 3.248308e-10, z: 0.000000014897617, w: 0.9997624}
+      scale: {x: 1.0000002, y: 0.99999994, z: 1.0000001}
+    - name: NPC Spine1 [Spn1]
+      parentName: NPC Spine [Spn0]
+      position: {x: -0, y: 0.00000010900497, z: 0.22221729}
+      rotation: {x: 0.07537406, y: -0.00000001477474, z: 0.000000040021686, w: 0.9971553}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1}
+    - name: NPC Spine2 [Spn2]
+      parentName: NPC Spine1 [Spn1]
+      position: {x: 0.000000012111664, y: -0.00043442115, z: 0.25054768}
+      rotation: {x: -0.12035972, y: 0.00000033485207, z: 0.00000063757955, w: 0.9927303}
+      scale: {x: 1.0000001, y: 1.0000013, z: 1.000001}
+    - name: LeftWing1
+      parentName: NPC Spine2 [Spn2]
+      position: {x: 0.14724529, y: -0.2185808, z: 0.50125736}
+      rotation: {x: 0.5915672, y: 0.20395224, z: 0.2490894, w: 0.739193}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000001}
+    - name: LeftWing2
+      parentName: LeftWing1
+      position: {x: 0.0026475007, y: -0.0064345878, z: 0.31356442}
+      rotation: {x: 0.32673058, y: 0.24762207, z: -0.018482234, w: 0.91191494}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: LeftWing3
+      parentName: LeftWing2
+      position: {x: 0.0066642975, y: 0.011931151, z: 0.5754043}
+      rotation: {x: -0.5845644, y: 0.09335354, z: 0.016872726, w: 0.8057822}
+      scale: {x: 1, y: 0.9999999, z: 0.99999994}
+    - name: LeftWing4
+      parentName: LeftWing3
+      position: {x: 0.008065011, y: -0.007527278, z: 0.7484011}
+      rotation: {x: 0.45243272, y: 0.020567402, z: -0.017143985, w: 0.89139646}
+      scale: {x: 1, y: 0.9999999, z: 0.9999999}
+    - name: LeftWing5
+      parentName: LeftWing4
+      position: {x: 0.01983658, y: -0.020674901, z: 0.6927963}
+      rotation: {x: 0.339447, y: -0.17951928, z: 0.008581876, w: 0.9232957}
+      scale: {x: 1.0000001, y: 1.0000001, z: 0.9999999}
+    - name: NPC L Cloak01
+      parentName: NPC Spine2 [Spn2]
+      position: {x: 0.2540002, y: -0.2016169, z: 0.33116767}
+      rotation: {x: 0.000000052154057, y: -0.000000015832482, z: -0.000000022351736,
+        w: 1}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000002}
+    - name: NPC L Cloak02
+      parentName: NPC L Cloak01
+      position: {x: 0.025399927, y: -0.0012158415, z: -0.25399753}
+      rotation: {x: 0.000000044703476, y: -0.00000001536682, z: -0.000000022351736,
+        w: 1}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000002}
+    - name: NPC L Cloak03
+      parentName: NPC L Cloak02
+      position: {x: 0.025400048, y: -0.0012159384, z: -0.25399578}
+      rotation: {x: 0.000000044703476, y: -0.00000001536682, z: -0.000000022351736,
+        w: 1}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000002}
+    - name: NPC L Cloak04
+      parentName: NPC L Cloak03
+      position: {x: 0.025400048, y: -0.0012156235, z: -0.25399756}
+      rotation: {x: 0.000000044703476, y: -0.00000001536682, z: -0.000000022351736,
+        w: 1}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000002}
+    - name: NPC L Cloak05
+      parentName: NPC L Cloak04
+      position: {x: 0.025400048, y: -0.0012158899, z: -0.25399658}
+      rotation: {x: 0.000000044703476, y: -0.00000001536682, z: -0.000000022351736,
+        w: 1}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000002}
+    - name: NPC L Cloak06
+      parentName: NPC L Cloak05
+      position: {x: 0.025400048, y: -0.0012158415, z: -0.25399685}
+      rotation: {x: 0.000000044703476, y: -0.00000001536682, z: -0.000000022351736,
+        w: 1}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000002}
+    - name: NPC L Cloak07
+      parentName: NPC L Cloak06
+      position: {x: 0.025399903, y: -0.0012158415, z: -0.25399703}
+      rotation: {x: 0.000000044703476, y: -0.00000001536682, z: -0.000000022351736,
+        w: 1}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000002}
+    - name: NPC L Cloak08
+      parentName: NPC L Cloak07
+      position: {x: 0.025400097, y: -0.0012158415, z: -0.25399762}
+      rotation: {x: 0.000000044703476, y: -0.00000001536682, z: -0.000000022351736,
+        w: 1}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000002}
+    - name: NPC L Cloak09
+      parentName: NPC L Cloak08
+      position: {x: 0.025400097, y: -0.0012158415, z: -0.2539971}
+      rotation: {x: 0.000000044703476, y: -0.00000001536682, z: -0.000000022351736,
+        w: 1}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000002}
+    - name: NPC L Cloak10
+      parentName: NPC L Cloak09
+      position: {x: 0.025400097, y: -0.0012159384, z: -0.2539967}
+      rotation: {x: 0.000000044703476, y: -0.00000001536682, z: -0.000000022351736,
+        w: 1}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000002}
+    - name: NPC L Cloak11
+      parentName: NPC L Cloak10
+      position: {x: 0.025400097, y: -0.0012157203, z: -0.2539973}
+      rotation: {x: 0.000000044703476, y: -0.00000001536682, z: -0.000000022351736,
+        w: 1}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000002}
+    - name: NPC L Cloak12
+      parentName: NPC L Cloak11
+      position: {x: 0.025400339, y: -0.0012161322, z: -0.253997}
+      rotation: {x: 0.000000044703476, y: -0.00000001536682, z: -0.000000022351736,
+        w: 1}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000002}
+    - name: NPC L PreBreast
+      parentName: NPC Spine2 [Spn2]
+      position: {x: 0.12699996, y: 0.12734316, z: 0.17755428}
+      rotation: {x: 0.0000000074505797, y: -1.3146503e-15, z: -1.7724378e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC L Breast
+      parentName: NPC L PreBreast
+      position: {x: -0.000000048446655, y: 0.050799925, z: -0.000098443605}
+      rotation: {x: 0, y: -0, z: -2.658656e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC L Breast01
+      parentName: NPC L Breast
+      position: {x: 0.000000048446655, y: 0.012699903, z: -0.000024223327}
+      rotation: {x: 0, y: -0, z: -2.682388e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC Neck [Neck]
+      parentName: NPC Spine2 [Spn2]
+      position: {x: 0.0000003391266, y: 0.00068486616, z: 0.5598028}
+      rotation: {x: 0.17055728, y: 0.036297057, z: 0.2568902, w: 0.9505789}
+      scale: {x: 1, y: 1.0000002, z: 1.0000001}
+    - name: NPC Head [Head]
+      parentName: NPC Neck [Neck]
+      position: {x: 0.000000072669984, y: 0, z: 0.18777603}
+      rotation: {x: -0.10711269, y: -0.05216715, z: -0.24887952, w: 0.96117866}
+      scale: {x: 1.0000004, y: 1.0000013, z: 1.0000008}
+    - name: bhkRigidBody
+      parentName: NPC Head [Head]
+      position: {x: 0.0000006510019, y: -0.00393121, z: 0.3057108}
+      rotation: {x: -0.00047256798, y: 0.0005875888, z: 0.005301965, w: 0.9999857}
+      scale: {x: 1.0000001, y: 1.0000002, z: 0.99999994}
+    - name: NPC Hair01
+      parentName: NPC Head [Head]
+      position: {x: 0.00001063404, y: 0.000008332825, z: 0.31749982}
+      rotation: {x: 0.000000022351752, y: -4.996007e-16, z: -0.000000022351745, w: 1}
+      scale: {x: 0.9999998, y: 0.9999995, z: 1}
+    - name: NPC BHair01
+      parentName: NPC Hair01
+      position: {x: 0.0000448616, y: -0.15240131, z: -0.050796416}
+      rotation: {x: -0.000000007450581, y: 0.0000000027939677, z: 2.0816682e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: NPC BHair02
+      parentName: NPC BHair01
+      position: {x: 0.0000034639359, y: -0.025403513, z: -0.12699865}
+      rotation: {x: -0.000000007450581, y: 0.0000000027939677, z: 2.0816682e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: NPC BHair03
+      parentName: NPC BHair02
+      position: {x: 0.0000034397124, y: -0.025403416, z: -0.12699912}
+      rotation: {x: -0.000000007450581, y: 0.0000000027939677, z: 2.0816682e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: NPC BHair04
+      parentName: NPC BHair03
+      position: {x: 0.000003488159, y: -0.025403392, z: -0.12700029}
+      rotation: {x: -0.000000007450581, y: 0.0000000027939677, z: 2.0816682e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: NPC BHair05
+      parentName: NPC BHair04
+      position: {x: 0.0000034639359, y: -0.025403464, z: -0.12699796}
+      rotation: {x: -0.000000007450581, y: 0.0000000027939677, z: 2.0816682e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: NPC BHair06
+      parentName: NPC BHair05
+      position: {x: 0.0000034639359, y: -0.025403343, z: -0.1269999}
+      rotation: {x: -0.000000007450581, y: 0.0000000027939677, z: 2.0816682e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: NPC BHair07
+      parentName: NPC BHair06
+      position: {x: 0.0000034639359, y: -0.025403354, z: -0.12699854}
+      rotation: {x: -0.000000007450581, y: 0.0000000027939677, z: 2.0816682e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: NPC BHair08
+      parentName: NPC BHair07
+      position: {x: 0.0000034639359, y: -0.025403343, z: -0.12699947}
+      rotation: {x: -0.000000007450581, y: 0.0000000027939677, z: 2.0816682e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: NPC BHair09
+      parentName: NPC BHair08
+      position: {x: 0.000003488159, y: -0.025403548, z: -0.12699947}
+      rotation: {x: -0.000000007450581, y: 0.0000000027939677, z: 2.0816682e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: NPC BHair10
+      parentName: NPC BHair09
+      position: {x: 0.0000034397124, y: -0.025403427, z: -0.12699915}
+      rotation: {x: -0.000000007450581, y: 0.0000000027939677, z: 2.0816682e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: NPC BHair11
+      parentName: NPC BHair10
+      position: {x: 0.000003488159, y: -0.025403295, z: -0.12699866}
+      rotation: {x: -0.000000007450581, y: 0.0000000027939677, z: 2.0816682e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: NPC BHair12
+      parentName: NPC BHair11
+      position: {x: 0.0000034639359, y: -0.025403537, z: -0.12699981}
+      rotation: {x: -0.000000007450581, y: 0.0000000027939677, z: 2.0816682e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: NPC BHair13
+      parentName: NPC BHair12
+      position: {x: 0.0000035123824, y: -0.02540349, z: -0.12699962}
+      rotation: {x: -0.000000007450581, y: 0.0000000027939677, z: 2.0816682e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: NPC BHair14
+      parentName: NPC BHair13
+      position: {x: 0.0000034397124, y: -0.025403295, z: -0.12699828}
+      rotation: {x: -0.000000007450581, y: 0.0000000027939677, z: 2.0816682e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: NPC BHair15
+      parentName: NPC BHair14
+      position: {x: 0.0000034639359, y: -0.025403343, z: -0.12700008}
+      rotation: {x: -0.000000007450581, y: 0.0000000027939677, z: 2.0816682e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: NPC BHair16
+      parentName: NPC BHair15
+      position: {x: 0.0000034639359, y: -0.025403485, z: -0.12699915}
+      rotation: {x: -0.000000007450581, y: 0.0000000027939677, z: 2.0816682e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: NPC BLHair01
+      parentName: NPC Hair01
+      position: {x: 0.12701367, y: -0.050762597, z: -0.05080426}
+      rotation: {x: -0.000000007450581, y: 0.0000000027939677, z: 2.0816682e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: NPC BLHair02
+      parentName: NPC BLHair01
+      position: {x: 0.0000035002709, y: -0.025403392, z: -0.12699951}
+      rotation: {x: -0.000000007450581, y: 0.0000000027939677, z: 2.0816682e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: NPC BLHair03
+      parentName: NPC BLHair02
+      position: {x: 0.000003451824, y: -0.02540344, z: -0.12699826}
+      rotation: {x: -0.000000007450581, y: 0.0000000027939677, z: 2.0816682e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: NPC BLHair04
+      parentName: NPC BLHair03
+      position: {x: 0.0000034760474, y: -0.025403392, z: -0.12699932}
+      rotation: {x: -0.000000007450581, y: 0.0000000027939677, z: 2.0816682e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: NPC BLHair05
+      parentName: NPC BLHair04
+      position: {x: 0.0000034760474, y: -0.025403392, z: -0.1269997}
+      rotation: {x: -0.060124356, y: -0.0000024016442, z: 0.00000009419165, w: 0.9981909}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: NPC BLHair06
+      parentName: NPC BLHair05
+      position: {x: 0.0000041179655, y: -0.02551947, z: -0.1269752}
+      rotation: {x: 0.06058892, y: 0.0000023763196, z: -0.00000014424363, w: 0.9981628}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC BLHair07
+      parentName: NPC BLHair06
+      position: {x: 0.0000034397124, y: -0.025402617, z: -0.12699962}
+      rotation: {x: 0.000000007450581, y: -0.000000008381903, z: -0.0000000037252903,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC BLHair08
+      parentName: NPC BLHair07
+      position: {x: 0.0000034760474, y: -0.025402592, z: -0.12699962}
+      rotation: {x: 0.000000007450581, y: -0.000000008381903, z: -0.0000000037252903,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC BLHair09
+      parentName: NPC BLHair08
+      position: {x: 0.0000034760474, y: -0.025402494, z: -0.12699981}
+      rotation: {x: 0.000000007450581, y: -0.000000008381903, z: -0.0000000037252903,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC BLHair10
+      parentName: NPC BLHair09
+      position: {x: 0.0000033791541, y: -0.025402531, z: -0.12699981}
+      rotation: {x: 0.000000007450581, y: -0.000000008381903, z: -0.0000000037252903,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC BLHair11
+      parentName: NPC BLHair10
+      position: {x: 0.000003488159, y: -0.025402676, z: -0.12699942}
+      rotation: {x: -3.1225023e-17, y: -0.000000008381903, z: -0.0000000037252903,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC BLHair12
+      parentName: NPC BLHair11
+      position: {x: 0.0000034639359, y: -0.025402507, z: -0.12700023}
+      rotation: {x: -3.1225023e-17, y: -0.000000008381903, z: -0.0000000037252903,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC BLHair13
+      parentName: NPC BLHair12
+      position: {x: 0.0000034154891, y: -0.025402628, z: -0.12699923}
+      rotation: {x: -3.1225023e-17, y: -0.000000008381903, z: -0.0000000037252903,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC BLHair14
+      parentName: NPC BLHair13
+      position: {x: 0.0000034276009, y: -0.025402658, z: -0.12699942}
+      rotation: {x: -3.1225023e-17, y: -0.000000008381903, z: -0.0000000037252903,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC BLHair15
+      parentName: NPC BLHair14
+      position: {x: 0.0000034760474, y: -0.02540261, z: -0.12699923}
+      rotation: {x: -3.1225023e-17, y: -0.000000008381903, z: -0.0000000037252903,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC BLHair16
+      parentName: NPC BLHair15
+      position: {x: 0.0000033912659, y: -0.025402568, z: -0.12699923}
+      rotation: {x: -3.1225023e-17, y: -0.000000008381903, z: -0.0000000037252903,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC BRHair01
+      parentName: NPC Hair01
+      position: {x: -0.1269861, y: -0.05084021, z: -0.050797675}
+      rotation: {x: -0.000000007450581, y: 0.0000000027939677, z: 2.0816682e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: NPC BRHair02
+      parentName: NPC BRHair01
+      position: {x: 0.0000034154891, y: -0.025403392, z: -0.12699845}
+      rotation: {x: -0.000000007450581, y: 0.0000000027939677, z: 2.0816682e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: NPC BRHair03
+      parentName: NPC BRHair02
+      position: {x: 0.0000034639359, y: -0.025403416, z: -0.12699807}
+      rotation: {x: -0.000000007450581, y: 0.0000000027939677, z: 2.0816682e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: NPC BRHair04
+      parentName: NPC BRHair03
+      position: {x: 0.000003560829, y: -0.025403416, z: -0.1269999}
+      rotation: {x: -0.000000007450581, y: 0.0000000027939677, z: 2.0816682e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: NPC BRHair05
+      parentName: NPC BRHair04
+      position: {x: 0.0000034154891, y: -0.02540344, z: -0.12699942}
+      rotation: {x: -0.060124356, y: -0.0000024016442, z: 0.00000009419165, w: 0.9981909}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: NPC BRHair06
+      parentName: NPC BRHair05
+      position: {x: 0.0000040937425, y: -0.025519518, z: -0.12697597}
+      rotation: {x: 0.060588904, y: 0.0000023763196, z: -0.0000001442436, w: 0.9981628}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC BRHair07
+      parentName: NPC BRHair06
+      position: {x: 0.0000035123824, y: -0.025402421, z: -0.12699947}
+      rotation: {x: -3.469447e-17, y: -0.000000009313226, z: -0.0000000037252903,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC BRHair08
+      parentName: NPC BRHair07
+      position: {x: 0.0000034154891, y: -0.02540264, z: -0.12699936}
+      rotation: {x: -3.469447e-17, y: -0.000000009313226, z: -0.0000000037252903,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC BRHair09
+      parentName: NPC BRHair08
+      position: {x: 0.0000034639359, y: -0.025402738, z: -0.12699942}
+      rotation: {x: -3.469447e-17, y: -0.000000009313226, z: -0.0000000037252903,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC BRHair10
+      parentName: NPC BRHair09
+      position: {x: 0.0000034397124, y: -0.025402458, z: -0.12699924}
+      rotation: {x: -3.469447e-17, y: -0.000000009313226, z: -0.0000000037252903,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC BRHair11
+      parentName: NPC BRHair10
+      position: {x: 0.0000035366058, y: -0.025402507, z: -0.12700102}
+      rotation: {x: -3.469447e-17, y: -0.000000009313226, z: -0.0000000037252903,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC BRHair12
+      parentName: NPC BRHair11
+      position: {x: 0.0000033912659, y: -0.025402544, z: -0.12699845}
+      rotation: {x: -3.469447e-17, y: -0.000000009313226, z: -0.0000000037252903,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC BRHair13
+      parentName: NPC BRHair12
+      position: {x: 0.000003488159, y: -0.025402518, z: -0.12699963}
+      rotation: {x: -3.469447e-17, y: -0.000000009313226, z: -0.0000000037252903,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC BRHair14
+      parentName: NPC BRHair13
+      position: {x: 0.0000034397124, y: -0.025402617, z: -0.127}
+      rotation: {x: -3.469447e-17, y: -0.000000009313226, z: -0.0000000037252903,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC BRHair15
+      parentName: NPC BRHair14
+      position: {x: 0.0000033428191, y: -0.025402518, z: -0.12699896}
+      rotation: {x: -3.469447e-17, y: -0.000000009313226, z: -0.0000000037252903,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC BRHair16
+      parentName: NPC BRHair15
+      position: {x: 0.000003560829, y: -0.02540281, z: -0.1269994}
+      rotation: {x: -3.469447e-17, y: -0.000000009313226, z: -0.0000000037252903,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC F Hair01
+      parentName: NPC Hair01
+      position: {x: 0.0017786463, y: 0.16518188, z: -0.034784794}
+      rotation: {x: -0.000000007450581, y: 0.0000000027939677, z: 2.0816682e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: NPC L Hair01
+      parentName: NPC F Hair01
+      position: {x: 0.12685995, y: 0.016797908, z: -0.052695233}
+      rotation: {x: 0.000000007170315, y: -0.0005923957, z: -0.00000047310766, w: 0.9999998}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: NPC L Hair02
+      parentName: NPC L Hair01
+      position: {x: -0.0000038393973, y: -0.000004069519, z: -0.15240116}
+      rotation: {x: 0, y: -0.0000000074505797, z: -0, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: NPC L Hair03
+      parentName: NPC L Hair02
+      position: {x: -0.000003778839, y: -0.0000041179655, z: -0.1523997}
+      rotation: {x: 0, y: -0.0000000074505797, z: -0, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: NPC L Hair04
+      parentName: NPC L Hair03
+      position: {x: -0.0000037909508, y: -0.0000040210725, z: -0.15240029}
+      rotation: {x: 0, y: -0.0000000074505797, z: -0, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: NPC L Hair05
+      parentName: NPC L Hair04
+      position: {x: -0.0000038030623, y: -0.0000041664125, z: -0.15239981}
+      rotation: {x: 0, y: -0.0000000074505797, z: -0, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: NPC L Hair06
+      parentName: NPC L Hair05
+      position: {x: -0.0000037303923, y: -0.000004069519, z: -0.15240024}
+      rotation: {x: 0, y: -0.0000000074505797, z: -0, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: NPC L Hair07
+      parentName: NPC L Hair06
+      position: {x: -0.000003851509, y: -0.0000041179655, z: -0.15239975}
+      rotation: {x: 0, y: -0.0000000074505797, z: -0, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: NPC L Hair08
+      parentName: NPC L Hair07
+      position: {x: -0.0000037546158, y: -0.000004069519, z: -0.15239981}
+      rotation: {x: 0, y: -0.0000000074505797, z: -0, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: NPC L Hair09
+      parentName: NPC L Hair08
+      position: {x: -0.0000037546158, y: -0.000004214859, z: -0.15239994}
+      rotation: {x: 0, y: -0.0000000074505797, z: -0, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: NPC R Hair01
+      parentName: NPC F Hair01
+      position: {x: -0.12712608, y: 0.019470517, z: -0.05268603}
+      rotation: {x: 0.00000023814064, y: -0.0005923957, z: -0.00000046924558, w: 0.9999998}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC R Hair02
+      parentName: NPC R Hair01
+      position: {x: -0.0000038272856, y: -0.0000041664125, z: -0.15240058}
+      rotation: {x: -0.0000000074505797, y: 0.0000000018626451, z: 1.3877786e-17,
+        w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: NPC R Hair03
+      parentName: NPC R Hair02
+      position: {x: -0.000003778839, y: -0.0000041664125, z: -0.15239865}
+      rotation: {x: -0.0000000074505797, y: 0.0000000018626451, z: 1.3877786e-17,
+        w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: NPC R Hair04
+      parentName: NPC R Hair03
+      position: {x: -0.0000037546158, y: -0.0000041664125, z: -0.15240058}
+      rotation: {x: -0.0000000074505797, y: 0.0000000018626451, z: 1.3877786e-17,
+        w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: NPC R Hair05
+      parentName: NPC R Hair04
+      position: {x: -0.000003778839, y: -0.0000041664125, z: -0.15240009}
+      rotation: {x: 0, y: 0.0000000018626451, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: NPC R Hair06
+      parentName: NPC R Hair05
+      position: {x: -0.0000037303923, y: -0.0000041664125, z: -0.15240034}
+      rotation: {x: 0, y: 0.0000000027939677, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: NPC R Hair07
+      parentName: NPC R Hair06
+      position: {x: -0.000003778839, y: -0.000004214859, z: -0.15239975}
+      rotation: {x: -0.0000000074505797, y: 0.0000000027939675, z: 2.0816677e-17,
+        w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: NPC R Hair08
+      parentName: NPC R Hair07
+      position: {x: -0.0000038030623, y: -0.0000041664125, z: -0.15240029}
+      rotation: {x: -0.0000000074505797, y: 0.0000000027939675, z: 2.0816677e-17,
+        w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: NPC R Hair09
+      parentName: NPC R Hair08
+      position: {x: -0.0000050626754, y: -0.0000035850524, z: -0.15239978}
+      rotation: {x: -0.0000000074505797, y: 0.0000000027939675, z: 2.0816677e-17,
+        w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: NPC Head MagicNode [Hmag]
+      parentName: NPC Head [Head]
+      position: {x: -0.00000010067821, y: 0.29310274, z: -0.08318175}
+      rotation: {x: 0, y: -0, z: -4.6566123e-10, w: 1}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: NPCEyeBone
+      parentName: NPC Head [Head]
+      position: {x: 0.0020890683, y: 0.20564486, z: 0.09429453}
+      rotation: {x: 0.0004730017, y: -0.0005869934, z: -0.005302002, w: 0.9999857}
+      scale: {x: 1, y: 0.99999976, z: 1.0000001}
+    - name: NPC R Cloak01
+      parentName: NPC Spine2 [Spn2]
+      position: {x: -0.25399992, y: -0.20161709, z: 0.33116826}
+      rotation: {x: 0.000000052154057, y: -0.000000015832482, z: -0.000000022351736,
+        w: 1}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000002}
+    - name: NPC R Cloak02
+      parentName: NPC R Cloak01
+      position: {x: -0.025399938, y: -0.0012159384, z: -0.253997}
+      rotation: {x: 0.000000044703476, y: -0.00000001536682, z: -0.000000022351736,
+        w: 1}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000002}
+    - name: NPC R Cloak03
+      parentName: NPC R Cloak02
+      position: {x: -0.025400013, y: -0.0012156477, z: -0.2539987}
+      rotation: {x: 0.000000044703476, y: -0.00000001536682, z: -0.000000022351736,
+        w: 1}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000002}
+    - name: NPC R Cloak04
+      parentName: NPC R Cloak03
+      position: {x: -0.025399914, y: -0.001216229, z: -0.25399545}
+      rotation: {x: 0.000000044703476, y: -0.00000001536682, z: -0.000000022351736,
+        w: 1}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000002}
+    - name: NPC R Cloak05
+      parentName: NPC R Cloak04
+      position: {x: -0.025400024, y: -0.0012158173, z: -0.25399703}
+      rotation: {x: 0.000000044703476, y: -0.00000001536682, z: -0.000000022351736,
+        w: 1}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000002}
+    - name: NPC R Cloak06
+      parentName: NPC R Cloak05
+      position: {x: -0.025399975, y: -0.0012158173, z: -0.25399676}
+      rotation: {x: 0.000000044703476, y: -0.00000001536682, z: -0.000000022351736,
+        w: 1}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000002}
+    - name: NPC R Cloak07
+      parentName: NPC R Cloak06
+      position: {x: -0.025400048, y: -0.001215575, z: -0.25399792}
+      rotation: {x: 0.000000044703476, y: -0.00000001536682, z: -0.000000022351736,
+        w: 1}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000002}
+    - name: NPC R Cloak08
+      parentName: NPC R Cloak07
+      position: {x: -0.025400072, y: -0.0012162533, z: -0.25399652}
+      rotation: {x: 0.000000044703476, y: -0.00000001536682, z: -0.000000022351736,
+        w: 1}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000002}
+    - name: NPC R Cloak09
+      parentName: NPC R Cloak08
+      position: {x: -0.025399685, y: -0.0012158657, z: -0.25399777}
+      rotation: {x: 0.000000044703476, y: -0.00000001536682, z: -0.000000022351736,
+        w: 1}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000002}
+    - name: NPC R Cloak10
+      parentName: NPC R Cloak09
+      position: {x: -0.025400072, y: -0.0012155024, z: -0.253997}
+      rotation: {x: 0.000000044703476, y: -0.00000001536682, z: -0.000000022351736,
+        w: 1}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000002}
+    - name: NPC R Cloak11
+      parentName: NPC R Cloak10
+      position: {x: -0.0254, y: -0.001216229, z: -0.253997}
+      rotation: {x: 0.000000044703476, y: -0.00000001536682, z: -0.000000022351736,
+        w: 1}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000002}
+    - name: NPC R Cloak12
+      parentName: NPC R Cloak11
+      position: {x: -0.025399806, y: -0.0012157445, z: -0.2539971}
+      rotation: {x: 0.000000044703476, y: -0.00000001536682, z: -0.000000022351736,
+        w: 1}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000002}
+    - name: NPC R PreBreast
+      parentName: NPC Spine2 [Spn2]
+      position: {x: -0.127, y: 0.12734324, z: 0.17755389}
+      rotation: {x: 0.0000000074505797, y: -1.3146503e-15, z: -1.7724378e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC R Breast
+      parentName: NPC R PreBreast
+      position: {x: -0.000000036334992, y: 0.050799854, z: -0.00009786224}
+      rotation: {x: 0, y: -0, z: -2.658656e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC R Breast01
+      parentName: NPC R Breast
+      position: {x: 0.000000012111664, y: 0.012699927, z: -0.000024417113}
+      rotation: {x: 0, y: -0, z: -2.682388e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC Wing 01 L
+      parentName: NPC Spine2 [Spn2]
+      position: {x: 0.12700023, y: -0.060126282, z: 0.07414571}
+      rotation: {x: -0.32068783, y: 0.034378607, z: -0.1824363, w: 0.92881346}
+      scale: {x: 1.0000002, y: 1, z: 1.0000002}
+    - name: NPC Wing 02 L
+      parentName: NPC Wing 01 L
+      position: {x: 0.13965352, y: -0.11426589, z: 0.1040856}
+      rotation: {x: -0.18622354, y: -0.3594475, z: 0.89091104, w: -0.20590243}
+      scale: {x: 0.99999976, y: 0.9999999, z: 1}
+    - name: NPC Wing 03 L
+      parentName: NPC Wing 02 L
+      position: {x: -0.3136231, y: 0.1608389, z: 0.20331375}
+      rotation: {x: -0.036263898, y: -0.050047074, z: -0.08887605, w: 0.9941234}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1.0000001}
+    - name: NPC Wing 04 L
+      parentName: NPC Wing 03 L
+      position: {x: -0.53290427, y: 0.13722305, z: 0.14737685}
+      rotation: {x: 0.99848574, y: 0.03997128, z: 0.03555996, w: 0.012808101}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC Wing 05 L
+      parentName: NPC Wing 04 L
+      position: {x: 0.00000019378662, y: 0.00000038757324, z: 0}
+      rotation: {x: -0.0071731824, y: 0.022708017, z: -0.018800274, w: 0.9995396}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: NPC Wing 06 L
+      parentName: NPC Wing 05 L
+      position: {x: -0.6884987, y: -0.2891089, z: 0.20377061}
+      rotation: {x: -0.18795073, y: 0.23720375, z: -0.24526961, w: 0.92100585}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: NPC Wing 07 L
+      parentName: NPC Wing 06 L
+      position: {x: -0.25059405, y: -0.39479896, z: 0.11535245}
+      rotation: {x: -0.1314728, y: 0.0682102, z: -0.11834109, w: 0.9818644}
+      scale: {x: 0.99999994, y: 0.9999999, z: 1.0000001}
+    - name: NPC Wing 08 L
+      parentName: NPC Wing 04 L
+      position: {x: -0, y: 0.00000029067994, z: 0.00000048446657}
+      rotation: {x: -0.07058065, y: 0.9956052, z: -0.03894014, w: 0.047669787}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1.0000001}
+    - name: NPC Wing 09 L
+      parentName: NPC Wing 08 L
+      position: {x: 0.32762408, y: -0.25320464, z: -0.7451829}
+      rotation: {x: 0.00001345413, y: -0.0003152918, z: -0.022725316, w: 0.99974173}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1}
+    - name: NPC Wing 10 L
+      parentName: NPC Wing 04 L
+      position: {x: -0.00000019378662, y: 0.00000021800994, z: 0.00000048446657}
+      rotation: {x: -0.107766345, y: 0.99206674, z: -0.041807637, w: 0.04941724}
+      scale: {x: 1.0000001, y: 1, z: 1.0000002}
+    - name: NPC Wing 11 L
+      parentName: NPC Wing 10 L
+      position: {x: -0.26920566, y: -0.2033541, z: -0.8733256}
+      rotation: {x: 0.0056122066, y: -0.0064875465, z: -0.05535563, w: 0.9984299}
+      scale: {x: 1.0000001, y: 1.0000001, z: 0.99999994}
+    - name: NPC Wing 01 R
+      parentName: NPC Spine2 [Spn2]
+      position: {x: -0.12699978, y: -0.060125988, z: 0.07414586}
+      rotation: {x: -0.14901063, y: 0.39033735, z: 0.2680194, w: 0.86810035}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000002}
+    - name: NPC Wing 02 R
+      parentName: NPC Wing 01 R
+      position: {x: -0.20829391, y: -0.0015212371, z: 0.0022791002}
+      rotation: {x: -0.7273509, y: 0.007477432, z: -0.06926091, w: 0.68272084}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000004}
+    - name: NPC Wing 03 R
+      parentName: NPC Wing 02 R
+      position: {x: -0.4068682, y: -0.0007593529, z: -0.004781491}
+      rotation: {x: 0.2301243, y: 0.050230667, z: -0.18315127, w: 0.9544503}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: NPC Wing 04 R
+      parentName: NPC Wing 03 R
+      position: {x: -0.5696642, y: -0.0043948865, z: 0.00006835823}
+      rotation: {x: 0.04877462, y: -0.023813985, z: -0.3119869, w: 0.9485347}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: NPC Wing 05 R
+      parentName: NPC Wing 04 R
+      position: {x: -0.000000048446655, y: 0.00000009689331, z: 0.0000007266998}
+      rotation: {x: -0.053755883, y: 0.0013210021, z: -0.002930373, w: 0.998549}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: NPC Wing 06 R
+      parentName: NPC Wing 05 R
+      position: {x: -0.77400243, y: 0.0013069939, z: -0.007478274}
+      rotation: {x: -0.043484353, y: -0.017811796, z: -0.28906602, w: 0.9561552}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: NPC Wing 07 R
+      parentName: NPC Wing 06 R
+      position: {x: -0.48150083, y: 0.0054322267, z: -0.009830892}
+      rotation: {x: -0.009178151, y: -0.0019264333, z: -0.13908865, w: 0.9902355}
+      scale: {x: 1, y: 0.99999994, z: 1.0000001}
+    - name: NPC Wing 08 R
+      parentName: NPC Wing 04 R
+      position: {x: -0.00000019378662, y: 0.00000048446657, z: 0.0000007993698}
+      rotation: {x: 0.6054183, y: -0.29332832, z: -0.20081854, w: 0.71210897}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: NPC Wing 09 R
+      parentName: NPC Wing 08 R
+      position: {x: -0.8523379, y: -0.0047001974, z: -0.015677629}
+      rotation: {x: -0.041162, y: -0.24343799, z: -0.008631738, w: 0.9690042}
+      scale: {x: 1.0000002, y: 1, z: 0.99999994}
+    - name: NPC Wing 10 R
+      parentName: NPC Wing 04 R
+      position: {x: -0.000000048446655, y: 0.00000038757324, z: 0.0000005329132}
+      rotation: {x: 0.4713014, y: -0.5126737, z: -0.39860672, w: 0.5967859}
+      scale: {x: 1, y: 1.0000002, z: 1}
+    - name: NPC Wing 11 R
+      parentName: NPC Wing 10 R
+      position: {x: -0.93552464, y: -0.005631221, z: -0.035853043}
+      rotation: {x: -0.0039001205, y: -0.23331366, z: -0.0008580015, w: 0.9723934}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: QUIVER
+      parentName: NPC Spine2 [Spn2]
+      position: {x: 0.18487187, y: -0.15362072, z: -0.42710522}
+      rotation: {x: 0.14819701, y: 0.7253569, z: -0.6550219, w: 0.15113397}
+      scale: {x: 1.0000001, y: 1, z: 1.0000002}
+    - name: RightWing1
+      parentName: NPC Spine2 [Spn2]
+      position: {x: -0.1472452, y: -0.21858093, z: 0.5012568}
+      rotation: {x: 0.59156716, y: -0.2039523, z: -0.24908917, w: 0.7391931}
+      scale: {x: 1.0000002, y: 1.0000001, z: 0.99999994}
+    - name: RightWing2
+      parentName: RightWing1
+      position: {x: -0.0026472583, y: -0.0064345878, z: 0.31356502}
+      rotation: {x: 0.3267306, y: -0.24762204, z: 0.018482067, w: 0.91191494}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: RightWing3
+      parentName: RightWing2
+      position: {x: -0.0066646123, y: 0.011930764, z: 0.57540375}
+      rotation: {x: -0.58456427, y: -0.09335359, z: -0.016872687, w: 0.8057823}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: RightWing4
+      parentName: RightWing3
+      position: {x: -0.008065157, y: -0.0075273747, z: 0.7484008}
+      rotation: {x: 0.45243278, y: -0.020567654, z: 0.017143864, w: 0.89139646}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: RightWing5
+      parentName: RightWing4
+      position: {x: -0.019836435, y: -0.020673156, z: 0.6927956}
+      rotation: {x: 0.339447, y: 0.17951937, z: -0.008582123, w: 0.9232957}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: WeaponBack
+      parentName: NPC Spine2 [Spn2]
+      position: {x: -0.31874305, y: -0.1611684, z: 0.727736}
+      rotation: {x: -0.6770581, y: -0.12669899, z: -0.13040403, w: 0.71311605}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000002}
+    - name: WeaponBow
+      parentName: NPC Spine2 [Spn2]
+      position: {x: 0.09037444, y: -0.26867405, z: 0.06261808}
+      rotation: {x: 0.09755714, y: 0.68754613, z: -0.6794571, w: 0.23685625}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000001}
+    - name: NPC L Clavicle [LClv]
+      parentName: NPC Spine2 [Spn2]
+      position: {x: 0.04305539, y: 0.1495422, z: 0.4941393}
+      rotation: {x: 0.026562065, y: -0.76020974, z: 0.19870327, w: -0.6179747}
+      scale: {x: 1.0000014, y: 1.0000014, z: 1.0000001}
+    - name: NPC L Pauldron
+      parentName: NPC L Clavicle [LClv]
+      position: {x: 0.040154137, y: 0.044873156, z: 0.29832774}
+      rotation: {x: -0.08998501, y: -0.67598474, z: 0.32601625, w: 0.654722}
+      scale: {x: 1.0000004, y: 0.9999999, z: 0.9999999}
+    - name: NPC L UpperArm [LUar]
+      parentName: NPC L Clavicle [LClv]
+      position: {x: -0.00000019378662, y: -0.000000072669984, z: 0.35671645}
+      rotation: {x: 0.1310567, y: 0.08252454, z: -0.17601109, w: -0.97212857}
+      scale: {x: 1.0000006, y: 1.0000004, z: 1}
+    - name: NPC L UpperarmTwist1 [LUt1]
+      parentName: NPC L UpperArm [LUar]
+      position: {x: 0.00000009689331, y: -0.000000048446655, z: 0.00000038757324}
+      rotation: {x: -0.7071066, y: 0.00000008940697, z: 0.70710695, w: 0.00000014901161}
+      scale: {x: 1.000001, y: 1.0000012, z: 1.0000001}
+    - name: NPC L UpperarmTwist2 [LUt2]
+      parentName: NPC L UpperarmTwist1 [LUt1]
+      position: {x: -0.17882387, y: 0, z: -0.00000009689331}
+      rotation: {x: -0.00000027395453, y: 0.00000035762787, z: 0.000000021073426,
+        w: 1}
+      scale: {x: 1.0000007, y: 1.0000002, z: 1.0000001}
+    - name: NPC L Forearm [LLar]
+      parentName: NPC L UpperArm [LUar]
+      position: {x: -0.0000004965782, y: -0.00000024223328, z: 0.5799839}
+      rotation: {x: -0.027704632, y: -0.014515752, z: 0.0032385492, w: 0.9995056}
+      scale: {x: 1.0000027, y: 0.9999999, z: 1.0000005}
+    - name: NPC L Hand [LHnd]
+      parentName: NPC L Forearm [LLar]
+      position: {x: -0.00000038099998, y: 0.0000002032, z: 0.40758404}
+      rotation: {x: 0.018926425, y: 0.026399491, z: 0.6820273, w: 0.730605}
+      scale: {x: 1.0000056, y: 0.9999991, z: 1.0000025}
+    - name: AnimObjectL
+      parentName: NPC L Hand [LHnd]
+      position: {x: -0, y: -0.061836995, z: 0.18184285}
+      rotation: {x: 0.579228, y: 0.57922786, z: -0.40557986, w: 0.40557995}
+      scale: {x: 0.99999946, y: 1.000001, z: 0.9999997}
+    - name: NPC L MagicNode [LMag]
+      parentName: NPC L Hand [LHnd]
+      position: {x: 0.012699806, y: -0.1089099, z: 0.22220927}
+      rotation: {x: 0.00000056624407, y: 0.000000052154885, z: 0.0000014305117, w: 1}
+      scale: {x: 0.9999998, y: 1, z: 1}
+    - name: SHIELD
+      parentName: NPC L Hand [LHnd]
+      position: {x: -0, y: -0.061836995, z: 0.18184285}
+      rotation: {x: 0.5792252, y: 0.5792317, z: -0.40557575, w: 0.4055825}
+      scale: {x: 0.9999984, y: 1.0000005, z: 1.0000014}
+    - name: NPC L Finger00 [LF00]
+      parentName: NPC L Hand [LHnd]
+      position: {x: 0.07265421, y: -0.023373282, z: 0.08044297}
+      rotation: {x: -0.14789325, y: 0.35430765, z: -0.4614735, w: 0.79977244}
+      scale: {x: 0.999997, y: 1.0000019, z: 1.0000017}
+    - name: NPC L Finger01 [LF01]
+      parentName: NPC L Finger00 [LF00]
+      position: {x: 0.0000001016, y: 0, z: 0.08219653}
+      rotation: {x: 0.031111654, y: -0.014592818, z: 0.013196733, w: 0.9993223}
+      scale: {x: 0.9999983, y: 1.0000051, z: 0.99999917}
+    - name: NPC L Finger02 [LF02]
+      parentName: NPC L Finger01 [LF01]
+      position: {x: 0.000000101064366, y: 0, z: 0.07205917}
+      rotation: {x: 0.043645035, y: -0.024408836, z: 0.0010667079, w: 0.9987483}
+      scale: {x: 0.9999981, y: 1.0000018, z: 1.0000013}
+    - name: NPC L Finger40 [LF40]
+      parentName: NPC L Hand [LHnd]
+      position: {x: -0.07620785, y: -0.040213916, z: 0.18849373}
+      rotation: {x: 0.11750302, y: -0.024131395, z: 0.2239689, w: 0.967186}
+      scale: {x: 1.0000018, y: 1.0000013, z: 0.9999976}
+    - name: NPC L Finger41 [LF41]
+      parentName: NPC L Finger40 [LF40]
+      position: {x: -0.000000024223327, y: -0.000000072669984, z: 0.044723433}
+      rotation: {x: 0.035843726, y: 0.0000013932581, z: -0.00000026694025, w: 0.99935746}
+      scale: {x: 1.0000037, y: 0.9999977, z: 0.99999917}
+    - name: NPC L Finger42 [LF42]
+      parentName: NPC L Finger41 [LF41]
+      position: {x: -0.00000006055832, y: -0.000000048446655, z: 0.045296654}
+      rotation: {x: 0.21966995, y: -0.000000006174323, z: -0.000000026011696, w: 0.97557425}
+      scale: {x: 0.9999967, y: 1.0000004, z: 1.0000033}
+    - name: NPC L Finger10 [LF10]
+      parentName: NPC L Hand [LHnd]
+      position: {x: 0.06463919, y: -0.0027715464, z: 0.21323039}
+      rotation: {x: 0.12546173, y: 0.017913112, z: 0.05929131, w: 0.9901632}
+      scale: {x: 1.0000038, y: 0.9999985, z: 0.9999991}
+    - name: NPC L Finger11 [LF11]
+      parentName: NPC L Finger10 [LF10]
+      position: {x: -0.00030706095, y: 0.00003337823, z: 0.061566062}
+      rotation: {x: 0.036624633, y: -0.0018098414, z: -0.000242529, w: 0.9993274}
+      scale: {x: 1.0000043, y: 0.9999969, z: 0.99999976}
+    - name: NPC L Finger12 [LF12]
+      parentName: NPC L Finger11 [LF11]
+      position: {x: -0.000000036334992, y: 0, z: 0.048075456}
+      rotation: {x: 0.12812343, y: 0.00000021606681, z: 0.000000059604638, w: 0.9917582}
+      scale: {x: 0.9999993, y: 1.0000045, z: 0.9999964}
+    - name: NPC L Finger30 [LF30]
+      parentName: NPC L Hand [LHnd]
+      position: {x: -0.035863962, y: -0.0023961852, z: 0.20434009}
+      rotation: {x: 0.073750675, y: 0.0008438479, z: 0.18470389, w: 0.98002285}
+      scale: {x: 0.99999815, y: 1.000005, z: 0.99999726}
+    - name: NPC L Finger31 [LF31]
+      parentName: NPC L Finger30 [LF30]
+      position: {x: -0.0020488666, y: -0.006372755, z: 0.071472704}
+      rotation: {x: 0.08174795, y: -0.009734508, z: -0.0016042248, w: 0.9966042}
+      scale: {x: 1.000005, y: 0.99999726, z: 0.99999917}
+    - name: NPC L Finger32 [LF32]
+      parentName: NPC L Finger31 [LF31]
+      position: {x: -0.000000036334992, y: 0, z: 0.050984483}
+      rotation: {x: 0.10911526, y: 0.000000111758716, z: 0.000000044703487, w: 0.9940291}
+      scale: {x: 0.9999997, y: 1.0000042, z: 0.9999963}
+    - name: NPC L Finger20 [LF20]
+      parentName: NPC L Hand [LHnd]
+      position: {x: 0.009894469, y: -0.019039307, z: 0.20411392}
+      rotation: {x: 0.17950796, y: -0.004568671, z: 0.09641825, w: 0.9790095}
+      scale: {x: 0.9999995, y: 1.000006, z: 0.99999493}
+    - name: NPC L Finger21 [LF21]
+      parentName: NPC L Finger20 [LF20]
+      position: {x: 0.0028344863, y: 0.008124801, z: 0.07852879}
+      rotation: {x: -0.018097589, y: 0.015099862, z: 0.0022436571, w: 0.99971974}
+      scale: {x: 1.0000049, y: 0.9999963, z: 1.0000007}
+    - name: NPC L Finger22 [LF22]
+      parentName: NPC L Finger21 [LF21]
+      position: {x: -0.00000003027916, y: 0, z: 0.050531507}
+      rotation: {x: 0.14689341, y: 0.000000066390974, z: -0.000000026650097, w: 0.9891523}
+      scale: {x: 0.99999917, y: 1.0000048, z: 0.9999962}
+    - name: NPC L ForearmTwist2 [LLt2]
+      parentName: NPC L Forearm [LLar]
+      position: {x: -0.0000006298065, y: -0.00000048446657, z: 0.11782093}
+      rotation: {x: -0.7064208, y: 0.031168908, z: 0.7064182, w: 0.03116946}
+      scale: {x: 1.0000024, y: 1.0000036, z: 1.0000008}
+    - name: NPC L ForearmTwist1 [LLt1]
+      parentName: NPC L Forearm [LLar]
+      position: {x: -0.00000092048646, y: -0.00000038757324, z: 0.2569785}
+      rotation: {x: -0.706703, y: 0.02392428, z: 0.7067009, w: 0.023925232}
+      scale: {x: 1.0000032, y: 1.0000049, z: 1.000003}
+    - name: NPC R Clavicle [RClv]
+      parentName: NPC Spine2 [Spn2]
+      position: {x: -0.04305545, y: 0.14954212, z: 0.49413902}
+      rotation: {x: -0.026565801, y: -0.76021016, z: 0.19870192, w: 0.61797446}
+      scale: {x: 1.0000015, y: 1.0000002, z: 1.0000007}
+    - name: NPC R Pauldron
+      parentName: NPC R Clavicle [RClv]
+      position: {x: -0.04015491, y: 0.044870663, z: 0.2983271}
+      rotation: {x: -0.089980625, y: 0.6759858, z: -0.32601327, w: 0.65472287}
+      scale: {x: 0.9999997, y: 0.9999999, z: 1.0000002}
+    - name: NPC R UpperArm [RUar]
+      parentName: NPC R Clavicle [RClv]
+      position: {x: 0.0000007751465, y: -0.0000003633499, z: 0.3567162}
+      rotation: {x: 0.13105677, y: -0.08252587, z: 0.17601375, w: -0.97212803}
+      scale: {x: 1.0000002, y: 1.000001, z: 0.9999992}
+    - name: NPC R UpperarmTwist1 [RUt1]
+      parentName: NPC R UpperArm [RUar]
+      position: {x: 0.00000009689331, y: 0, z: 0.00000019378662}
+      rotation: {x: 0.0042123124, y: -0.70709395, z: -0.0042122416, w: -0.70709455}
+      scale: {x: 1.0000005, y: 0.9999997, z: 1.0000017}
+    - name: NPC R UpperarmTwist2 [RUt2]
+      parentName: NPC R UpperarmTwist1 [RUt1]
+      position: {x: -0.17882504, y: -0.00000009689331, z: -0.00000024223328}
+      rotation: {x: 0.000035750672, y: -0.00000029802317, z: -0.00000010454093, w: 1}
+      scale: {x: 0.99999946, y: 0.9999989, z: 0.9999987}
+    - name: NPC R Forearm [RLar]
+      parentName: NPC R UpperArm [RUar]
+      position: {x: -0.00000021800994, y: -0.00000009689331, z: 0.5799844}
+      rotation: {x: -0.027698504, y: 0.014518128, z: -0.003315652, w: 0.99950546}
+      scale: {x: 1.000001, y: 0.9999982, z: 1.0000005}
+    - name: NPC R Hand [RHnd]
+      parentName: NPC R Forearm [RLar]
+      position: {x: -0, y: -0.0000002032, z: 0.4075843}
+      rotation: {x: 0.031782318, y: -0.042821113, z: -0.6814373, w: 0.7299312}
+      scale: {x: 1.0000012, y: 1.0000014, z: 1.0000043}
+    - name: AnimObjectR
+      parentName: NPC R Hand [RHnd]
+      position: {x: 0.025400188, y: -0.03643709, z: 0.20724301}
+      rotation: {x: 0.49999994, y: -0.50000006, z: 0.49999994, w: 0.50000006}
+      scale: {x: 1, y: 0.9999999, z: 1.0000001}
+    - name: NPC R MagicNode [RMag]
+      parentName: NPC R Hand [RHnd]
+      position: {x: -0.012699606, y: -0.10891004, z: 0.22220938}
+      rotation: {x: 0.000000014901082, y: -0.00000043399632, z: -0.00000018253922,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: WEAPON
+      parentName: NPC R Hand [RHnd]
+      position: {x: 0.005717868, y: -0.07977633, z: 0.18184304}
+      rotation: {x: 0.49999994, y: -0.5000001, z: 0.49999994, w: 0.5000001}
+      scale: {x: 1.0000008, y: 0.9999991, z: 1.0000002}
+    - name: NPC R Finger00 [RF00]
+      parentName: NPC R Hand [RHnd]
+      position: {x: -0.0726538, y: -0.023373663, z: 0.08044304}
+      rotation: {x: -0.17236255, y: -0.3433552, z: 0.45296618, w: 0.8044999}
+      scale: {x: 0.9999997, y: 1, z: 0.99999845}
+    - name: NPC R Finger01 [RF01]
+      parentName: NPC R Finger00 [RF00]
+      position: {x: -0.0000000508, y: 0, z: 0.08219643}
+      rotation: {x: 0.031115055, y: 0.014593796, z: -0.01319644, w: 0.9993221}
+      scale: {x: 1.0000015, y: 1.0000002, z: 0.999999}
+    - name: NPC R Finger02 [RF02]
+      parentName: NPC R Finger01 [RF01]
+      position: {x: 0.0000000508, y: 0, z: 0.07205917}
+      rotation: {x: 0.043644834, y: 0.024409028, z: -0.0010665569, w: 0.99874836}
+      scale: {x: 1.0000015, y: 0.99999976, z: 1.0000002}
+    - name: NPC R Finger40 [RF40]
+      parentName: NPC R Hand [RHnd]
+      position: {x: 0.07620774, y: -0.040212948, z: 0.18849383}
+      rotation: {x: -0.07684148, y: -0.0120778205, z: 0.22409756, w: -0.97145754}
+      scale: {x: 0.9999981, y: 1.0000012, z: 0.9999992}
+    - name: NPC R Finger41 [RF41]
+      parentName: NPC R Finger40 [RF40]
+      position: {x: 0.0000001016, y: 0.0000001016, z: 0.044723634}
+      rotation: {x: 0.0358426, y: 0.00000011362131, z: 0.00000018606072, w: 0.99935746}
+      scale: {x: 0.99999964, y: 1.0000006, z: 1.0000008}
+    - name: NPC R Finger42 [RF42]
+      parentName: NPC R Finger41 [RF41]
+      position: {x: -0, y: 0, z: 0.045296352}
+      rotation: {x: 0.2196699, y: -0.00000016809912, z: 0.000000097639045, w: 0.9755743}
+      scale: {x: 0.99999905, y: 0.99999976, z: 1.0000006}
+    - name: NPC R Finger10 [RF10]
+      parentName: NPC R Hand [RHnd]
+      position: {x: -0.06463868, y: -0.0027717242, z: 0.21323039}
+      rotation: {x: -0.0820455, y: 0.017923106, z: 0.06053402, w: -0.9946271}
+      scale: {x: 1.0000012, y: 0.99999994, z: 0.9999983}
+    - name: NPC R Finger11 [RF11]
+      parentName: NPC R Finger10 [RF10]
+      position: {x: 0.0000002032, y: 0, z: 0.062437978}
+      rotation: {x: 0.03691539, y: 0.0000019110728, z: -0.000000019324933, w: 0.9993184}
+      scale: {x: 1.0000002, y: 1.0000035, z: 1.0000015}
+    - name: NPC R Finger12 [RF12]
+      parentName: NPC R Finger11 [RF11]
+      position: {x: -0, y: 0, z: 0.048075367}
+      rotation: {x: 0.12812334, y: -0.00000014197937, z: -0.00000029722705, w: 0.9917583}
+      scale: {x: 1.0000002, y: 0.9999996, z: 1.0000004}
+    - name: NPC R Finger30 [RF30]
+      parentName: NPC R Hand [RHnd]
+      position: {x: 0.036686998, y: -0.016234282, z: 0.20260152}
+      rotation: {x: -0.079100356, y: 0.0005487219, z: 0.18179451, w: -0.9801498}
+      scale: {x: 0.9999992, y: 1.0000002, z: 0.9999996}
+    - name: NPC R Finger31 [RF31]
+      parentName: NPC R Finger30 [RF30]
+      position: {x: 0.0000001016, y: 0.0000001016, z: 0.06786669}
+      rotation: {x: 0.035388794, y: 0.00000026274918, z: 0.0000003859165, w: 0.9993737}
+      scale: {x: 0.9999989, y: 0.99999917, z: 1.0000002}
+    - name: NPC R Finger32 [RF32]
+      parentName: NPC R Finger31 [RF31]
+      position: {x: -0, y: 0.0000000508, z: 0.05098448}
+      rotation: {x: 0.10911534, y: 0.000000059604645, z: -0.000000029802322, w: 0.9940291}
+      scale: {x: 0.9999991, y: 1.0000001, z: 1.0000007}
+    - name: NPC R Finger20 [RF20]
+      parentName: NPC R Hand [RHnd]
+      position: {x: -0.0093409, y: -0.0021034502, z: 0.20985366}
+      rotation: {x: -0.08087527, y: 0.010712003, z: 0.09930625, w: -0.991707}
+      scale: {x: 0.9999986, y: 0.9999997, z: 1.0000005}
+    - name: NPC R Finger21 [RF21]
+      parentName: NPC R Finger20 [RF20]
+      position: {x: -0, y: 0, z: 0.08132207}
+      rotation: {x: 0.036198873, y: -0.0000005047765, z: 0.000000029220224, w: 0.99934465}
+      scale: {x: 0.9999992, y: 0.9999997, z: 1.0000013}
+    - name: NPC R Finger22 [RF22]
+      parentName: NPC R Finger21 [RF21]
+      position: {x: 0.0000001016, y: 0.0000000508, z: 0.0505317}
+      rotation: {x: 0.14689356, y: -0.000000007450581, z: 0.000000059604645, w: 0.9891523}
+      scale: {x: 0.9999989, y: 0.9999992, z: 1.000001}
+    - name: NPC R ForearmTwist2 [RLt2]
+      parentName: NPC R Forearm [RLar]
+      position: {x: 0.000005522919, y: 0.00000034518243, z: 0.11782403}
+      rotation: {x: 0.029377418, y: -0.7064966, z: -0.029374966, w: -0.7064961}
+      scale: {x: 1.0000031, y: 1.0000021, z: 1.0000025}
+    - name: NPC R ForearmTwist1 [RLt1]
+      parentName: NPC R Forearm [RLar]
+      position: {x: -0.000005232239, y: 0.000001186943, z: 0.25697735}
+      rotation: {x: 0.02392731, y: -0.70669454, z: -0.023923123, w: -0.70670927}
+      scale: {x: 1.000004, y: 1.000003, z: 1.0000037}
+    - name: x_NPC LookNode [Look]
+      parentName: NPC Root [Root]
+      position: {x: 0.005484444, y: 0.010451109, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: x_NPC Rotate [Rot ]
+      parentName: NPC Root [Root]
+      position: {x: 0.005484444, y: 0.010451109, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: x_NPC Translate [Pos ]
+      parentName: NPC Root [Root]
+      position: {x: 0.005484444, y: 0.010451109, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
